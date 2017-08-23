@@ -26,12 +26,11 @@ function initGoogleMap(id, mapOptions) {
   return new google.maps.Map(document.getElementById(id), mapOptions);
 }
 
-var theMan = new google.maps.LatLng(40.7853306,-119.2130828);
-var centerCamp = new google.maps.LatLng(40.7815329,-119.2136077);
+var theMan = new google.maps.LatLng(40.78634768018833, -119.20651392770787);
 
 function BRCMap() {
   return {
-    center: centerCamp,
+    center: theMan,
     zoom: 14,
 
   }
