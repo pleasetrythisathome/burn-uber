@@ -13,9 +13,9 @@ function initTypeform(formId) {
   $.getScript("https://s3-eu-west-1.amazonaws.com/share.typeform.com/embed.js");
 }
 
-function initGoogleMap(el, center) {
-  var embed = $("<iframe>", {
-    src: "https://www.google.com/maps/d/embed?mid=1w25_ugthwsCoMaeNOn1nAjOsz20",
+function initGoogleMap(el, mapOptions) {
+  var map = $("<iframe>", {
+    src: "https://www.google.com/maps/d/embed?" + $.param(mapOptions),
     id:  "google-map",
     width: "100%",
     height: "100%",
@@ -24,5 +24,16 @@ function initGoogleMap(el, center) {
     frameborder: 0,
     scrolling: "no"
   });
-  el.html(embed);
+  el.html(map);
+  return map;
+}
+
+function initCenterMarker() {
+  var marker = new google.maps.Marker({
+    position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+    map: map,
+    icon: image,
+    zIndex: 10
+  });
+  return marker;s
 }
