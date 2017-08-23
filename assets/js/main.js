@@ -27,7 +27,6 @@ function embedMap(el, mapOptions) {
 }
 
 function initGoogleMap(id, mapOptions) {
-  console.log("initMap", document.getElementById(id), mapOptions);
   return new google.maps.Map(document.getElementById(id), mapOptions);
 }
 
@@ -55,4 +54,9 @@ function initCenterMarker(map) {
 function initBurnerUber(id) {
   var map = initGoogleMap("map-canvas", BRCMap());
   var marker = initCenterMarker(map);
+  $("#request-form-trigger").click(function() {
+    console.log("test");
+    $("#request-form").modal();
+    initTypeform("HhhOAN");
+  });
 }
