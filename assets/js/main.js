@@ -1,17 +1,13 @@
-function typeform(id, formId) {
+function typeform(id, formId, hiddenFields) {
+  hiddenFields = hiddenFields || {};
   return $("<iframe>", {
-    src: "https://blackdoor.typeform.com/to/" + formId + window.location.search,
+    src: "https://blackdoor.typeform.com/to/" + formId + "?" + $.param(hiddenFields),
     id:  id,
     width: "100%",
     height: "100%",
     frameborder: 0
   });
 };
-
-function initTypeform(formId) {
-  typeform("typeform-full", formId).appendTo("#typeform-container");
-  $.getScript("https://s3-eu-west-1.amazonaws.com/share.typeform.com/embed.js");
-}
 
 function embedMap(el, mapOptions) {
   var map = $("<iframe>", {
@@ -67,8 +63,13 @@ function initBurnerUber(id) {
   var marker = initCenterMarker(map);
   updateUserLocation(map);
   $("#request-form-trigger").click(function() {
-    console.log("test");
     $("#request-form").modal();
-    initTypeform("HhhOAN");
+    var hiddenFields = {
+      lat: map.getCenter().lat(),
+      lng: map.getCenter().lng()
+    };
+    console.log(hiddenFields);
+    typeform("typeform-full", "HhhOAN", hiddenFields)
+      .appendTo("#typeform-container");
   });
 }
