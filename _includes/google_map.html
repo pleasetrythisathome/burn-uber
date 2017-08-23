@@ -1,11 +1,8 @@
-<div id="google-map-container" class="full-container"/>
+<div id="map-canvas">
 
 <script type="text/javascript">
-  $(document).ready(function() {
-    initGoogleMap($("#google-map-container"), {
-      mid: "1w25_ugthwsCoMaeNOn1nAjOsz20",
-      ll: "40.78537258589346%2C-119.2127067192502",
-      z: 16
-    });
-  });
+  $(document).ready(initBurnerUber.bind(this, "map-canvas"));
+</script>
+
+<script        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDf6jp6l5uH2Tw4tfELb8hLH472oAu6mKY">
 </script>

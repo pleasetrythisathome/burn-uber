@@ -13,7 +13,7 @@ function initTypeform(formId) {
   $.getScript("https://s3-eu-west-1.amazonaws.com/share.typeform.com/embed.js");
 }
 
-function initGoogleMap(el, mapOptions) {
+function embedMap(el, mapOptions) {
   var map = $("<iframe>", {
     src: "https://www.google.com/maps/d/embed?" + $.param(mapOptions),
     id:  "google-map",
@@ -24,16 +24,35 @@ function initGoogleMap(el, mapOptions) {
     frameborder: 0,
     scrolling: "no"
   });
-  el.html(map);
-  return map;
 }
 
-function initCenterMarker() {
+function initGoogleMap(id, mapOptions) {
+  console.log("initMap", document.getElementById(id), mapOptions);
+  return new google.maps.Map(document.getElementById(id), mapOptions);
+}
+
+function BRCMap() {
+  return {
+    center: new google.maps.LatLng(40.7853306,-119.2130828),
+    zoom: 16,
+
+  }
+}
+
+function initCenterMarker(map) {
+  var image = 'http://maps.google.com/mapfiles/ms/micons/blue.png';
   var marker = new google.maps.Marker({
-    position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-    map: map,
-    icon: image,
-    zIndex: 10
+    position: map.getCenter(),
+    image: image,
+    map: map
   });
-  return marker;s
+  window.google.maps.event.addListener(map, 'drag',function (event) {
+    marker.setPosition(map.getCenter());
+  });
+  return marker;
+}
+
+function initBurnerUber(id) {
+  var map = initGoogleMap("map-canvas", BRCMap());
+  var marker = initCenterMarker(map);
 }
