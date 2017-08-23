@@ -46,7 +46,7 @@ function initCenterMarker(map) {
     image: image,
     map: map
   });
-  window.google.maps.event.addListener(map, 'drag',function (event) {
+  map.addListener('center_changed', function() {
     marker.setPosition(map.getCenter());
   });
   return marker;
