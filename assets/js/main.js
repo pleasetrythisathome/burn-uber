@@ -13,6 +13,16 @@ function initTypeform(formId) {
   $.getScript("https://s3-eu-west-1.amazonaws.com/share.typeform.com/embed.js");
 }
 
-$(document).ready(function(){
-  initTypeform("jfPC2R");
-});
+function initGoogleMap(el, center) {
+  var embed = $("<iframe>", {
+    src: "https://www.google.com/maps/d/embed?mid=1w25_ugthwsCoMaeNOn1nAjOsz20",
+    id:  "google-map",
+    width: "100%",
+    height: "100%",
+    marginwidth: 0,
+    marginheigth: 0,
+    frameborder: 0,
+    scrolling: "no"
+  });
+  el.html(embed);
+}
