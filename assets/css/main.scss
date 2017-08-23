@@ -12,9 +12,30 @@ body {
   margin: 0px;
 }
 
-html, body, .page-content, #map-canvas {
+html, body, main, #map-canvas {
   margin: 0;
   padding: 0;
   height: 100%;
+  width: 100%;
+}
+
+main, nav, footer {
+  position: absolute;
+}
+
+main, nav {
+  top: 0;
+}
+
+main {
+  z-index: 0;
+}
+
+nav, footer {
+  z-index: 1;
+}
+
+footer {
+  bottom: 0;
   width: 100%;
 }

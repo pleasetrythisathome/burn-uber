@@ -3,5 +3,11 @@ layout: default
 ---
 
 {% include nav.html %}
-{% include google_map.html %}
+<main class="page-content" aria-label="Content">
+  {% include google_map.html %}
+</main>
+{% include request_button.html %}
 
+<script type="text/javascript">
+  $(document).ready(initBurnerUber.bind(this, "map-canvas"));
+</script>
