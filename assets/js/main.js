@@ -30,11 +30,22 @@ function initGoogleMap(id, mapOptions) {
   return new google.maps.Map(document.getElementById(id), mapOptions);
 }
 
+var theMan = new google.maps.LatLng(40.7853306,-119.2130828);
+var centerCamp = new google.maps.LatLng(40.7815329,-119.2136077);
+
 function BRCMap() {
   return {
-    center: new google.maps.LatLng(40.7853306,-119.2130828),
-    zoom: 16,
+    center: centerCamp,
+    zoom: 14,
 
+  }
+}
+
+function updateUserLocation(map) {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(location) {
+      map.setCenter(new google.maps.LatLng(location.coords.latitude, location.coords.longitude));
+    });
   }
 }
 
@@ -54,6 +65,7 @@ function initCenterMarker(map) {
 function initBurnerUber(id) {
   var map = initGoogleMap("map-canvas", BRCMap());
   var marker = initCenterMarker(map);
+  updateUserLocation(map);
   $("#request-form-trigger").click(function() {
     console.log("test");
     $("#request-form").modal();
