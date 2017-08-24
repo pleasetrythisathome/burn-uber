@@ -36,12 +36,50 @@ function BRCMap() {
   }
 }
 
-function updateUserLocation(map) {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function(location) {
-      map.setCenter(new google.maps.LatLng(location.coords.latitude, location.coords.longitude));
-    });
+var tryAPIGeolocation = function(onSuccess) {
+	$.post( "https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyDDEwZnUm3V2TuTI2hUcWiN1CFaKAcpVXQ", function(success) {
+    console.log("API Geolocation success!", success);
+		onSuccess.call(this, {coords: {latitude: success.location.lat, longitude: success.location.lng}});
+  })
+  .fail(function(err) {
+    console.log("API Geolocation error!", err);
+  });
+};
+
+var browserGeolocationSuccess = function(onSuccess, position) {
+	console.log("Browser geolocation success!", position);
+  onSuccess.call(this, position);
+};
+
+var browserGeolocationFail = function(onSuccess, error) {
+  switch (error.code) {
+    case error.TIMEOUT:
+      console.log("Browser geolocation error !\n\nTimeout.");
+      break;
+    case error.PERMISSION_DENIED:
+      if(error.message.indexOf("Only secure origins are allowed") == 0) {
+        tryAPIGeolocation(onSuccess);
+      }
+      break;
+    case error.POSITION_UNAVAILABLE:
+    console.log("Browser geolocation error !\n\nPosition unavailable.");
+      break;
   }
+};
+
+var tryGeolocation = function(onSuccess) {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(
+    	browserGeolocationSuccess.bind(this, onSuccess),
+      browserGeolocationFail.bind(this, onSuccess),
+      {maximumAge: 50000, timeout: 20000, enableHighAccuracy: true});
+  }
+};
+
+function updateUserLocation(map) {
+  tryGeolocation(function(location) {
+    map.setCenter(new google.maps.LatLng(location.coords.latitude, location.coords.longitude));
+  });
 }
 
 function initCenterMarker(map) {
