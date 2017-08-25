@@ -114,7 +114,7 @@ function showDirections(map, service, display, start, end) {
     avoidHighways: true,
     origin: start,
     destination: end,
-    travelMode: google.maps.DirectionsTravelMode.WALKING
+    travelMode: google.maps.DirectionsTravelMode.DRIVING
   };
   service.route(request, function(response, status) {
     if (status === 'OK') {
@@ -141,6 +141,7 @@ function initCenterMarker(map) {
 function createStartMarker(map) {
   return new google.maps.Marker({
     position: map.getCenter(),
+    icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
     map: map
   });
 }
