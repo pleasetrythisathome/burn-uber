@@ -191,6 +191,7 @@ function initBurnerUber() {
       showDirections(map, directionsService, directionsDisplay, startMarker.getPosition(),  map.getCenter());
       centerMarker.setMap();
       startMarker.setMap();
+      $("#request-form-trigger").removeClass("disabled");
     } else {
       startMarker = createStartMarker(map);
     }
