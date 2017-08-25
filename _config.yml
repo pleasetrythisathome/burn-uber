@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Burn Uber
+title: Uberburn
 email: dbutman@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Uber for art cars at burning man.
+  Art Car Rides in Black Rock City
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://burnuber.com" # the base hostname & protocol for your site, e.g. http://example.com
-image: "http://burnuber.com/assets/images/icon.jpg"
+image: "http://burnuber.com/assets/images/Uberlogo.jpg"
 google_analytics: UA-37067141-2
 
 # Build settings
