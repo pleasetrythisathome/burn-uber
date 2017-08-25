@@ -41,6 +41,14 @@ main, nav {
 
 main {
   z-index: 0;
+  padding-top: $navbar-height-mobile;
+  padding-bottom: 76px;
+}
+
+@media #{$medium-and-up} {
+  main {
+    padding-top: $navbar-height;
+  }
 }
 
 nav, footer {
@@ -56,7 +64,7 @@ nav {
   }
 }
 
-@media (max-width: 992px) {
+@media #{$medium-and-down} {
   nav .brand-logo {
     left: 15px;
     transform: none;
