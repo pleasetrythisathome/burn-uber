@@ -95,6 +95,18 @@ function initCenterMarker(map) {
   return marker;
 }
 
+function showLanding() {
+  var landing = $("#landing");
+  landing.modal();
+  landing.modal("open");
+  landing.click(closeLanding);
+  setTimeout(closeLanding, 2000);
+}
+
+function closeLanding() {
+  $("#landing").modal("close");
+}
+
 function initBurnerUber(id) {
   var map = initGoogleMap("map-canvas", BRCMap());
   var marker = initCenterMarker(map);
@@ -109,4 +121,5 @@ function initBurnerUber(id) {
     typeform("typeform-full", "HhhOAN", hiddenFields)
       .appendTo("#typeform-container");
   });
+  setTimeout(showLanding, 0);
 }
