@@ -89,6 +89,7 @@ function initCenterMarker(map) {
     icon: image,
     map: map
   });
+  google.maps.event.addListener(marker, 'click', request.bind(this, map));
   map.addListener('center_changed', function() {
     marker.setPosition(map.getCenter());
   });
@@ -107,19 +108,22 @@ function closeLanding() {
   $("#landing").modal("close");
 }
 
+function request(map) {
+  $("#request-form").modal();
+  $("#request-form").modal("open");
+  var hiddenFields = {
+    lat: map.getCenter().lat(),
+    lng: map.getCenter().lng()
+  };
+  console.log(hiddenFields);
+  typeform("typeform-full", "HhhOAN", hiddenFields)
+    .appendTo("#typeform-container");
+}
+
 function initBurnerUber(id) {
   var map = initGoogleMap("map-canvas", BRCMap());
   var marker = initCenterMarker(map);
   updateUserLocation(map);
-  $("#request-form-trigger").click(function() {
-    $("#request-form").modal();
-    var hiddenFields = {
-      lat: map.getCenter().lat(),
-      lng: map.getCenter().lng()
-    };
-    console.log(hiddenFields);
-    typeform("typeform-full", "HhhOAN", hiddenFields)
-      .appendTo("#typeform-container");
-  });
+  $("#request-form-trigger").click(request.bind(this, map));
   setTimeout(showLanding, 0);
 }
