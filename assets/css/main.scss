@@ -48,6 +48,7 @@ nav, footer {
 }
 
 nav {
+  text-transform: uppercase;
   .button-collapse {
     float: right;
     margin-right: 5px;
@@ -78,6 +79,7 @@ footer.page-footer {
 }
 
 .side-nav {
+  text-transform: uppercase;
   .logo {
     background-image: url(/assets/images/Uberlogo.jpg);
     background-size: contain;
