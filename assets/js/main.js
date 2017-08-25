@@ -103,8 +103,15 @@ var tryGeolocation = function(onSuccess) {
 
 function updateUserLocation(map) {
   tryGeolocation(function(location) {
-    if (10000 > distanceToBRC(location.coords.latitude, location.coords.longitude)) {
-      map.setCenter(new google.maps.LatLng(location.coords.latitude, location.coords.longitude));
+    if (8175 > distanceToBRC(location.coords.latitude, location.coords.longitude)) {
+      var position = new google.maps.LatLng(location.coords.latitude, location.coords.longitude)
+      var marker = new google.maps.Marker({
+        position: position,
+        icon: "/assets/images/bluecircle.png",
+        map: map,
+        zIndex: 0
+      });
+      map.setCenter(position);
     }
   });
 }
@@ -126,11 +133,11 @@ function showDirections(map, service, display, start, end) {
 }
 
 function initCenterMarker(map) {
-  var image = "/assets/images/pickup_location.png";
   var marker = new google.maps.Marker({
     position: map.getCenter(),
-    icon: image,
-    map: map
+    icon: "/assets/images/pickup_location.png",
+    map: map,
+    zIndex: 1
   });
   map.addListener('center_changed', function() {
     marker.setPosition(map.getCenter());
