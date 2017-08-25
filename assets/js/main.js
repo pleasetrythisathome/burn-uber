@@ -83,10 +83,10 @@ function updateUserLocation(map) {
 }
 
 function initCenterMarker(map) {
-  var image = 'http://maps.google.com/mapfiles/ms/micons/blue.png';
+  var image = "/assets/images/pickup_location.png";
   var marker = new google.maps.Marker({
     position: map.getCenter(),
-    image: image,
+    icon: image,
     map: map
   });
   map.addListener('center_changed', function() {
