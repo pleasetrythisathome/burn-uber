@@ -109,6 +109,22 @@ function updateUserLocation(map) {
   });
 }
 
+function showDirections(map, service, display, start, end) {
+  var request = {
+    avoidHighways: true,
+    origin: start,
+    destination: end,
+    travelMode: google.maps.DirectionsTravelMode.WALKING
+  };
+  service.route(request, function(response, status) {
+    if (status === 'OK') {
+      display.setDirections(response);
+    } else {
+      console.log('Directions request failed due to ', status, response);
+    }
+  });
+}
+
 function initCenterMarker(map) {
   var image = "/assets/images/pickup_location.png";
   var marker = new google.maps.Marker({
@@ -116,11 +132,25 @@ function initCenterMarker(map) {
     icon: image,
     map: map
   });
-  google.maps.event.addListener(marker, 'click', request.bind(this, map));
   map.addListener('center_changed', function() {
     marker.setPosition(map.getCenter());
   });
   return marker;
+}
+
+function createStartMarker(map) {
+  return new google.maps.Marker({
+    position: map.getCenter(),
+    map: map
+  });
+}
+
+function createEndMarker(map) {
+  return new google.maps.Marker({
+    position: map.getCenter(),
+    icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+    map: map
+  });
 }
 
 function showLanding() {
@@ -128,7 +158,7 @@ function showLanding() {
   landing.modal();
   landing.modal("open");
   landing.click(closeLanding);
-  setTimeout(closeLanding, 2000);
+  setTimeout(closeLanding, 4000);
   $(".button-collapse").sideNav();
 }
 
@@ -148,9 +178,22 @@ function request(map) {
     .appendTo("#typeform-container");
 }
 
-function initBurnerUber(id) {
+function initBurnerUber() {
   var map = initGoogleMap("map-canvas", BRCMap());
-  var marker = initCenterMarker(map);
+  var directionsService = new google.maps.DirectionsService();
+  var directionsDisplay = new google.maps.DirectionsRenderer({map: map});
+  var centerMarker = initCenterMarker(map);
+  var startMarker;
+  var endMarker;
+  google.maps.event.addListener(centerMarker, 'click', function() {
+    if (startMarker) {
+      showDirections(map, directionsService, directionsDisplay, startMarker.getPosition(),  map.getCenter());
+      centerMarker.setMap();
+      startMarker.setMap();
+    } else {
+      startMarker = createStartMarker(map);
+    }
+  });
   updateUserLocation(map);
   $("#request-form-trigger").click(request.bind(this, map));
   setTimeout(showLanding, 0);
