@@ -5,7 +5,19 @@
 
 @import "materialize";
 
-html{
+@font-face {
+	font-family: "Arkhip";
+	src: url("/assets/fonts/Arkhip_font.oft") format("oft"),
+	url("/assets/fonts/Arkhip_font.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Neutra";
+	src: url("/assets/fonts/Neutra2Display-Medium.otf") format("oft");
+}
+
+html {
+  font-family: Arkhip, Roboto, sans-serif;
 }
 
 body {
