@@ -61,59 +61,20 @@ function BRCMap() {
   }
 }
 
-var tryAPIGeolocation = function(onSuccess) {
-	$.post( "https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyDDEwZnUm3V2TuTI2hUcWiN1CFaKAcpVXQ", function(success) {
-    console.log("API Geolocation success!", success);
-		onSuccess.call(this, {coords: {latitude: success.location.lat, longitude: success.location.lng}});
-  })
-  .fail(function(err) {
-    console.log("API Geolocation error!", err);
-  });
-};
-
-var browserGeolocationSuccess = function(onSuccess, position) {
-	console.log("Browser geolocation success!", position);
-  onSuccess.call(this, position);
-};
-
-var browserGeolocationFail = function(onSuccess, error) {
-  switch (error.code) {
-    case error.TIMEOUT:
-      console.log("Browser geolocation error !\n\nTimeout.");
-      break;
-    case error.PERMISSION_DENIED:
-      if(error.message.indexOf("Only secure origins are allowed") == 0) {
-        tryAPIGeolocation(onSuccess);
-      }
-      break;
-    case error.POSITION_UNAVAILABLE:
-    console.log("Browser geolocation error !\n\nPosition unavailable.");
-      break;
-  }
-};
-
-var tryGeolocation = function(onSuccess) {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(
-    	browserGeolocationSuccess.bind(this, onSuccess),
-      browserGeolocationFail.bind(this, onSuccess),
-      {maximumAge: 50000, timeout: 20000, enableHighAccuracy: true});
-  }
-};
-
-function updateUserLocation(map) {
-  tryGeolocation(function(location) {
-    if (8175 > distanceToBRC(location.coords.latitude, location.coords.longitude)) {
-      var position = new google.maps.LatLng(location.coords.latitude, location.coords.longitude)
-      var marker = new google.maps.Marker({
-        position: position,
-        icon: "/assets/images/bluecircle.png",
-        map: map,
-        zIndex: 0
-      });
+function initGeolocation(map) {
+  var marker = new GeolocationMarker(map);
+  marker.setCircleOptions({fillOpacity: 0.1})
+  google.maps.event.addListenerOnce(marker, "position_changed", function() {
+    var position = marker.getPosition();
+    if (8175 > distanceToBRC(position.lat(), position.lng())) {
       map.setCenter(position);
+      map.fitBounds(this.getBounds());
     }
   });
+  google.maps.event.addListener(marker, 'geolocation_error', function(e) {
+    console.log('There was an error obtaining your position.', e);
+  });
+  return marker;
 }
 
 function showDirections(map, service, display, start, end) {
@@ -191,6 +152,7 @@ function initBurnerUber() {
   var directionsService = new google.maps.DirectionsService();
   var directionsDisplay = new google.maps.DirectionsRenderer({map: map});
   var centerMarker = initCenterMarker(map);
+  var geoMarker = initGeolocation(map);
   var startMarker;
   var endMarker;
   google.maps.event.addListener(centerMarker, 'click', function() {
@@ -203,7 +165,6 @@ function initBurnerUber() {
       startMarker = createStartMarker(map);
     }
   });
-  updateUserLocation(map);
   $("#request-form-trigger").click(request.bind(this, map));
   setTimeout(showLanding, 0);
 }
