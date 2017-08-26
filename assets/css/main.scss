@@ -131,3 +131,32 @@ iframe#typeform-full {
 .nav-offset {
   margin-top: $navbar-height;
 }
+
+#destination-wrapper {
+  position: fixed;
+  top: $navbar-height-mobile;
+  width: 100%;
+  padding: 3px 0px;
+  display: none;
+
+  .autocomplete-content {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+}
+
+@media #{$medium-and-up} {
+  #destination-wrapper {
+    top: $navbar-height;
+  }
+}
+
+.input-field {
+  padding-bottom: 5px !important;
+  i {
+    margin-top: 5px;
+  }
+  label {
+    pointer-events: none;
+  }
+}
