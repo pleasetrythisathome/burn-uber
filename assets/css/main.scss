@@ -42,7 +42,10 @@ main, nav {
 main {
   z-index: 0;
   padding-top: $navbar-height-mobile;
-  padding-bottom: 76px;
+
+  .bottom-padding {
+    padding-bottom: 76px;
+  }
 }
 
 @media #{$medium-and-up} {
