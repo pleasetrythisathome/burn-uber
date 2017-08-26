@@ -5,7 +5,7 @@
 layout: copy
 ---
 
-Concepted by Kae Burke.
+Concepted by [Kae Burke](http://houseofyes.org/).
 Developed by [Dylan Butman](https://github.com/pleasetrythisathome).
 Created together... for Burners and friends.
 
