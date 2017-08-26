@@ -163,9 +163,7 @@ function initDestinationInput(onDestination) {
       data: _.mapObject(camps, _.constant(null)),
       limit: 5, // The max amount of results that can be shown at once. Default: Infinity.
       onAutocomplete: function(val) {
-        var location = campLocation(val);
-        console.log(camps[val], location.lat(), location.lng());
-        onDestination(location);
+        onDestination(camps[val]);
       },
       minLength: 1,
     });
@@ -246,24 +244,13 @@ function showLanding() {
 function closeLanding() {
   $("#landing").modal("close");
 }
-
-function request(map) {
-  $("#request-form").modal();
-  $("#request-form").modal("open");
-  var hiddenFields = {
-    lat: map.getCenter().lat(),
-    lng: map.getCenter().lng()
-  };
-  console.log(hiddenFields);
-  typeform("typeform-full", "HhhOAN", hiddenFields)
-    .appendTo("#typeform-container");
-}
 var map,
     directionsService,
     directionsDisplay,
     centerMarker,
     geoMarker,
-    startMarker;
+    startMarker,
+    destination;
 
 function initBurnerUber() {
   map = initGoogleMap("map-canvas", BRCMap());
@@ -278,10 +265,27 @@ function initBurnerUber() {
   });
   $("#request-form-trigger").click(request.bind(this, map));
   setTimeout(showLanding, 0);
-  initDestinationInput(function(destination) {
+  initDestinationInput(function(_destination) {
+    destination = _destination;
     startMarker.setMap();
-    showDirections(map, directionsService, directionsDisplay, startMarker.getPosition(),  destination);
+    var location = campLocation(destination.camp);
+    console.log("destination", destination, location.lat(), location.lng());
+    showDirections(map, directionsService, directionsDisplay, startMarker.getPosition(),  location);
     hideDestinationInput();
   });
   return map;
+}
+
+function request(map) {
+  $("#request-form").modal();
+  $("#request-form").modal("open");
+  var hiddenFields = {
+    lat: map.getCenter().lat(),
+    lng: map.getCenter().lng(),
+    camp: destination.camp,
+    address: destination.address
+  };
+  console.log("request", hiddenFields);
+  typeform("typeform-full", "HhhOAN", hiddenFields)
+    .appendTo("#typeform-container");
 }
