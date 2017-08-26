@@ -6,7 +6,7 @@ layout: copy
 ---
 
 Concepted by [Kae Burke](http://houseofyes.org/).
-Developed by [Dylan Butman](https://github.com/pleasetrythisathome).
+Developed by [Dylan Butman](https://github.com/pleasetrythisathome/burn-uber).
 Created together... for Burners and friends.
 
 Made possible by the generous support of [House of Yes](http://houseofyes.org/).
