@@ -109,7 +109,7 @@ function initCenterMarker(map) {
 function createStartMarker(map) {
   return new google.maps.Marker({
     position: map.getCenter(),
-    icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+    icon: "https://maps.google.com/mapfiles/ms/icons/blue-dot.png",
     map: map
   });
 }
@@ -117,7 +117,7 @@ function createStartMarker(map) {
 function createEndMarker(map) {
   return new google.maps.Marker({
     position: map.getCenter(),
-    icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+    icon: "https://maps.google.com/mapfiles/ms/icons/green-dot.png",
     map: map
   });
 }
