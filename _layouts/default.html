@@ -5,5 +5,10 @@
     {% include scripts.html %}
     {% include nav.html %}
     {{ content }}
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".button-collapse").sideNav();
+      });
+    </script>
   </body>
 </html>

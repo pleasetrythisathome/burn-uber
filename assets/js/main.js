@@ -238,7 +238,6 @@ function showLanding() {
   landing.modal("open");
   landing.click(closeLanding);
   setTimeout(closeLanding, 4000);
-  $(".button-collapse").sideNav();
 }
 
 function closeLanding() {
