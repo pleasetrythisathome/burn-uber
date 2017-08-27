@@ -1,0 +1,2036 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Art Installations</name>
+    <Style id="icon-ci-1-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="10" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-10-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-11-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-11.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-12-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-12.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-13-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-13.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-14-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-14.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-15-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-15.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-16-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-16.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-17-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-17.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-18-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-18.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-19-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-19.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-2-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-20-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-20.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-21-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-21.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-22-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-22.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-23-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-23.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-24-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-24.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-25-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-25.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-26-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-26.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-27-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-27.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-28-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-28.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-29-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-29.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-3-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-30-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-30.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-31-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-31.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-32-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-32.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-33-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-33.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-34-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-34.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-35-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-35.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-36-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-36.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-37-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-37.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-38-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-38.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-39-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-39.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-4-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-40-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-40.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-41-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-41.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-42-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-42.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-43-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-43.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-44-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-44.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-45-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-45.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-46-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-46.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-47-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-47.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-48-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-48.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-49-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-49.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-5-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-50-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-50.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-51-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-51.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-52-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-52.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-53-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-53.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-54-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-54.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-55-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-55.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-56-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-56.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-57-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-57.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-58-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-58.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-59-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-59.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-6-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-60-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-60.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-61-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-61.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-7-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-8-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-ci-9-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-9.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>The Man</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/0TCn4AgpcckzVmmsxAyafTZIGy4l-9wyJPC7hrX36Mb7DjJmeEE2cxA-ZOlfehdd9OcR7tDwifDhoPfkJC9Vt3nhlu2KCjmipxpQQrz-8ITKycMw6YitcoWgOtwOUH8" height="200" width="auto" /><br><br>description: TEMPLE OF THE GOLDEN SPIKE (Man Base)<br><br>Our art theme in 2017 is RADICAL RITUAL. This leads to an obvious question: Just what is so radical about ritual? The word radical occurs three times in the Ten Principles, and most people regard this as referring to a breaking of boundaries and a shedding of restrictions. But radical has a second meaning: It refers to all that is fixed and fundamental in human nature.<br>Events: With a theme like Radical Ritual, it’s no wonder Burning Man 2017 will be home to 30 different Shrines.<br><br>At the center of Black Rock City, 20 Shrines will inscribe a circle around the Man base, known this year as the Temple of the Golden Spike. Throughout the week, the space will be energized with processions and rituals, inviting the denizens of BRC to explore what we as a community consider sacrosanct.<br>https://burningman.org/event/brc/2017-shrines-and-processionals/ <br>Link: http://burningman.org]]></description>
+      <styleUrl>#icon-ci-1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>TEMPLE OF THE GOLDEN SPIKE (Man Base)
+
+Our art theme in 2017 is RADICAL RITUAL. This leads to an obvious question: Just what is so radical about ritual? The word radical occurs three times in the Ten Principles, and most people regard this as referring to a breaking of boundaries and a shedding of restrictions. But radical has a second meaning: It refers to all that is fixed and fundamental in human nature.</value>
+        </Data>
+        <Data name="Events">
+          <value>With a theme like Radical Ritual, it’s no wonder Burning Man 2017 will be home to 30 different Shrines.
+
+At the center of Black Rock City, 20 Shrines will inscribe a circle around the Man base, known this year as the Temple of the Golden Spike. Throughout the week, the space will be energized with processions and rituals, inviting the denizens of BRC to explore what we as a community consider sacrosanct.
+https://burningman.org/event/brc/2017-shrines-and-processionals/ </value>
+        </Data>
+        <Data name="Link">
+          <value>http://burningman.org</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/0TCn4AgpcckzVmmsxAyafTZIGy4l-9wyJPC7hrX36Mb7DjJmeEE2cxA-ZOlfehdd9OcR7tDwifDhoPfkJC9Vt3nhlu2KCjmipxpQQrz-8ITKycMw6YitcoWgOtwOUH8</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2066139,40.7866085,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Temple</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/UKoOkWB4y29Go622-UaYq-UVAFNJkqmwpf8srFvC2PaDPYIuqvFQ1cuaE1fBjT7zG3GJo5WpLzF5kMTbt4IKVzThlS3zBM4wfvnGSTlyDQszDWKkvsxxb7_ISuUV6UNJ3w" height="200" width="auto" /><br><br>description: TEMPLE 2017<br>Events: <br>Link: http://www.temple2017.org/]]></description>
+      <styleUrl>#icon-ci-2-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>TEMPLE 2017</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value>http://www.temple2017.org/</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/UKoOkWB4y29Go622-UaYq-UVAFNJkqmwpf8srFvC2PaDPYIuqvFQ1cuaE1fBjT7zG3GJo5WpLzF5kMTbt4IKVzThlS3zBM4wfvnGSTlyDQszDWKkvsxxb7_ISuUV6UNJ3w</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2001852,40.7916662,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wings of Eos</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/nPZmJ1YXrbuJu1UkL7E8osP5lwWD1kdQqJRFniKYcgD36qCGC0n6jwyx35cY-wYbwCkxfkoxzyvRiDShnJYKO3XJdvfOq9gKg0cNNVjkAB6g52V21aNqz-7CEhmKaUbbtQ" height="200" width="auto" /><br><br>description: [Man Pavilion Shrine] <br>Wings of Eos stands as a shrine in the Temple of the Golden Spike (Man Base). It measures 4x6' atop a 3' plinth, all composed of wood. Based on a Fibonacci spiral, the Wings are symmetrical and appear heart-shaped. Handprint "feathers" become individual pieces of art as they are inscribed and decorated by participants at events leading up to the burn. The Wings of Eos is named for Eos, the goddess of dawn and new beginnings, who, in Greek legend, opened the gates of heaven for her brother, the sun god Helios, to ride his chariot through each day, towing up the Sun. As a gift to Black Rock City, the Wings are hands-on art in its purest form and pay homage to the difference between a closed fist and an outstretched hand, which represents our opening to each other and how, as a community, we help each other rise. In this piece, the artist, Roxane "Bounce" Williams, conveys her gratitude for the many people whose outstretched hands helped her toward her new beginning.<br>Events: A Tuesday morning sunrise processional to the Wings of Eos shrine features women carrying and composing art from the negative space left behind during the laser cutting of the "feathers." Meditation and healing follow this ritual sunrise ceremony. <br>Link: <br><br><img src="https://lh4.googleusercontent.com/gWg5vYU8BuabecEkU59g9TkFcCQ4sIW21E9-oQqr4dyjF-zba9a6J3xqmhphDed0X3vgl0BWhcYSNb8ek9Bem9baoEVa8hcIoZ5qdgrEtqGO4V5XHS_wL01aFVg9QqcjvA" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-ci-3-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value><![CDATA[[Man Pavilion Shrine]
+Wings of Eos stands as a shrine in the Temple of the Golden Spike (Man Base). It measures 4x6' atop a 3' plinth, all composed of wood. Based on a Fibonacci spiral, the Wings are symmetrical and appear heart-shaped. Handprint "feathers" become individual pieces of art as they are inscribed and decorated by participants at events leading up to the burn. The Wings of Eos is named for Eos, the goddess of dawn and new beginnings, who, in Greek legend, opened the gates of heaven for her brother, the sun god Helios, to ride his chariot through each day, towing up the Sun. As a gift to Black Rock City, the Wings are hands-on art in its purest form and pay homage to the difference between a closed fist and an outstretched hand, which represents our opening to each other and how, as a community, we help each other rise. In this piece, the artist, Roxane "Bounce" Williams, conveys her gratitude for the many people whose outstretched hands helped her toward her new beginning.]]></value>
+        </Data>
+        <Data name="Events">
+          <value><![CDATA[A Tuesday morning sunrise processional to the Wings of Eos shrine features women carrying and composing art from the negative space left behind during the laser cutting of the "feathers." Meditation and healing follow this ritual sunrise ceremony. ]]></value>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/nPZmJ1YXrbuJu1UkL7E8osP5lwWD1kdQqJRFniKYcgD36qCGC0n6jwyx35cY-wYbwCkxfkoxzyvRiDShnJYKO3XJdvfOq9gKg0cNNVjkAB6g52V21aNqz-7CEhmKaUbbtQ https://lh4.googleusercontent.com/gWg5vYU8BuabecEkU59g9TkFcCQ4sIW21E9-oQqr4dyjF-zba9a6J3xqmhphDed0X3vgl0BWhcYSNb8ek9Bem9baoEVa8hcIoZ5qdgrEtqGO4V5XHS_wL01aFVg9QqcjvA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2058388,40.7876799,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ahimsa Hamsa</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/JbZ5CdPTPomtI6MomlKE7Q1TaccMBlecm1IpBhmSpM1sLu5tlo426XCpv7zaBWz1ME54MNuCocGgCImTOdXrbdrVyw3Nhf1jqDNn3R-kQyiftwZ1SFrrX4DIY2S9abMqsA" height="200" width="auto" /><br><br>description: [Man Pavilion Shrine]<br>Hands have power. The power to transform ideas into reality. The power to create, destroy, and alter the world around us. Ahimsa Hamsa is a shrine dedicated to peaceful and productive hands that encourages reflection and reverence to our most valuable tools. The hand in the sculpture takes the form of the Hamsa symbol, representing protection from the evil eye. It also closely resembles the Ahimsa symbol, representing non-violence. Made with repurposed wood from deconstructed missile crates, the sculpture transforms materials that once held weapons into art that encourages peace, inclusivity, and collaboration. A handmade ceramic relic will be placed within the hand following a ceremonial procession of high fives and handshakes during the week of Burning Man.<br>Events: Mon, Aug. 28 from 2-4pm: Ahimsa Hamsa Shrine Procession. <br>Come celebrate the awesomeness of hands in a hands-on procession and ceremony. Meet at Cafe Diem (4:15 and D) at 2pm or at the A.H. Shrine at the man pavilion at 3pm.<br>Link: ]]></description>
+      <styleUrl>#icon-ci-4-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>[Man Pavilion Shrine]
+Hands have power. The power to transform ideas into reality. The power to create, destroy, and alter the world around us. Ahimsa Hamsa is a shrine dedicated to peaceful and productive hands that encourages reflection and reverence to our most valuable tools. The hand in the sculpture takes the form of the Hamsa symbol, representing protection from the evil eye. It also closely resembles the Ahimsa symbol, representing non-violence. Made with repurposed wood from deconstructed missile crates, the sculpture transforms materials that once held weapons into art that encourages peace, inclusivity, and collaboration. A handmade ceramic relic will be placed within the hand following a ceremonial procession of high fives and handshakes during the week of Burning Man.</value>
+        </Data>
+        <Data name="Events">
+          <value>Mon, Aug. 28 from 2-4pm: Ahimsa Hamsa Shrine Procession.
+Come celebrate the awesomeness of hands in a hands-on procession and ceremony. Meet at Cafe Diem (4:15 and D) at 2pm or at the A.H. Shrine at the man pavilion at 3pm.</value>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/JbZ5CdPTPomtI6MomlKE7Q1TaccMBlecm1IpBhmSpM1sLu5tlo426XCpv7zaBWz1ME54MNuCocGgCImTOdXrbdrVyw3Nhf1jqDNn3R-kQyiftwZ1SFrrX4DIY2S9abMqsA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2048657,40.7869147,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Silent Lotus</name>
+      <description><![CDATA[description: [Man Pavilion Shrine]<br>The Silent Lotus is a shrine meant to create a therapeutic and healing space where participants can share a secret, intention, hope or regret with Harpocrates, Greek god of secrets. Written notes can be slipped into one of the four wooden pillars representing the bridges between roots and freedom. Harpocrates will guard the secrets until the last day, when they will burn along with the Man and bring relief and forgiveness.<br>Events: <br>Link: ]]></description>
+      <styleUrl>#icon-ci-5-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>[Man Pavilion Shrine]
+The Silent Lotus is a shrine meant to create a therapeutic and healing space where participants can share a secret, intention, hope or regret with Harpocrates, Greek god of secrets. Written notes can be slipped into one of the four wooden pillars representing the bridges between roots and freedom. Harpocrates will guard the secrets until the last day, when they will burn along with the Man and bring relief and forgiveness.</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2042534,40.7863912,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Buddha Bank</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/TXh2S7z7BmWB8X4TdEHQbg6P4SUXV5pgS7M2HnX5KOcAIoQBPZiRu3L8ukjRPEdk9RQn14jef9pJFBGCs11ZNYdtgdmT8o__nFSt0SBjR8nW8T0Egtd3TFYt9KGm57mW" height="200" width="auto" /><br><br>description: [Man Pavilion Shrine]<br>Our piece looks like a laughing Buddha statue but it will have the head and arms of the man. It will have a clear belly so you can see the precious schwag building up in the bank.<br>Events: <br>Link: ]]></description>
+      <styleUrl>#icon-ci-6-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>[Man Pavilion Shrine]
+Our piece looks like a laughing Buddha statue but it will have the head and arms of the man. It will have a clear belly so you can see the precious schwag building up in the bank.</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/TXh2S7z7BmWB8X4TdEHQbg6P4SUXV5pgS7M2HnX5KOcAIoQBPZiRu3L8ukjRPEdk9RQn14jef9pJFBGCs11ZNYdtgdmT8o__nFSt0SBjR8nW8T0Egtd3TFYt9KGm57mW</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2044977,40.7857098,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Northern Spork</name>
+      <description><![CDATA[description: [Man Pavilion Shrine]<br>The main feature of Northern Spork shrine will be a vertical spork; a symbol our regional group has adopted. The spork will be embossed with arcane symbols that have regional and historic meanings, that have been used in projects we have brought to playa over the last 4 years. Water plays an important role in our cultural identity, and as a cleansing medium. It will be a secondary feature as waves at the base of the spork. The offering receptacle, a jell-o mould, invites tributes and or messages from Burners who make a pilgrimage to the shrine. There will also be some personal references to pay tribute to MN Burners we have lost from this plane over the past few years.<br>Events: <br>Link: ]]></description>
+      <styleUrl>#icon-ci-7-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>[Man Pavilion Shrine]
+The main feature of Northern Spork shrine will be a vertical spork; a symbol our regional group has adopted. The spork will be embossed with arcane symbols that have regional and historic meanings, that have been used in projects we have brought to playa over the last 4 years. Water plays an important role in our cultural identity, and as a cleansing medium. It will be a secondary feature as waves at the base of the spork. The offering receptacle, a jell-o mould, invites tributes and or messages from Burners who make a pilgrimage to the shrine. There will also be some personal references to pay tribute to MN Burners we have lost from this plane over the past few years.</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2059302,40.7852532,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pagan Bunny Shrine</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/2kAGFm_Xl3a-MVHIdHGd8uUWGecH-y-DWdg6eIszt6NO3Vv3p6QPqMeMqZs96HkpPUMlGP26JEVO-Ij2uPiNn8cViL9lX3fd33hP_RBslrln_UaUyOCDxNrMDdZDLI8" height="200" width="auto" /><br><br>description: [Man Pavilion Shrine]<br>The Pagan Bunny (Golden Bunny) Shrine is a large golden shrine built for the symbolic relic of the Pagan Bunny. The Pagan Bunny is a symbol of the spirit of spring, the berth of fertility, ART and hoppiness. Everybunny is blessed with freshness, and are rejuvenated as they look upon the golden Pagan Bunny Shrine. Participants are encouraged to leave with the relic gifts to the SomeBunny Special, and to wish for fertility, love and rejuvenation.<br>Events: Monday 6:45pm - Processional<br>Link: ]]></description>
+      <styleUrl>#icon-ci-8-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>[Man Pavilion Shrine]
+The Pagan Bunny (Golden Bunny) Shrine is a large golden shrine built for the symbolic relic of the Pagan Bunny. The Pagan Bunny is a symbol of the spirit of spring, the berth of fertility, ART and hoppiness. Everybunny is blessed with freshness, and are rejuvenated as they look upon the golden Pagan Bunny Shrine. Participants are encouraged to leave with the relic gifts to the SomeBunny Special, and to wish for fertility, love and rejuvenation.</value>
+        </Data>
+        <Data name="Events">
+          <value>Monday 6:45pm - Processional</value>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/2kAGFm_Xl3a-MVHIdHGd8uUWGecH-y-DWdg6eIszt6NO3Vv3p6QPqMeMqZs96HkpPUMlGP26JEVO-Ij2uPiNn8cViL9lX3fd33hP_RBslrln_UaUyOCDxNrMDdZDLI8</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.207003,40.7854608,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>House of the Golden Raven</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/_eglO9Ysl6hlRLAsFq7qQGJ3Chzq4vZCMnGyXP1-TGrW59NVQTWtIvbU69b1Z1JnNnxvFTvIwgUu5ImVx7qOZQp7tIMsD1Cj8jC1DBPOgFj0beirmxdDKXYVbonGTlRcgQ" height="200" width="auto" /><br><br>description: [Man Pavilion Shrine]<br>House of the Golden Raven is a spirit house, protecting Man Pavilion and the Black Rock City – all of its participants. The spirit of the Raven asks nothing more than is written on the four sides of its Shrine: “Know Thyself”, “Leave no Trace” and “Leave a better Place”. Or when offering, then: “Offer ideas, not MOOP”<br>Events: <br>Link: ]]></description>
+      <styleUrl>#icon-ci-9-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>[Man Pavilion Shrine]
+House of the Golden Raven is a spirit house, protecting Man Pavilion and the Black Rock City – all of its participants. The spirit of the Raven asks nothing more than is written on the four sides of its Shrine: “Know Thyself”, “Leave no Trace” and “Leave a better Place”. Or when offering, then: “Offer ideas, not MOOP”</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/_eglO9Ysl6hlRLAsFq7qQGJ3Chzq4vZCMnGyXP1-TGrW59NVQTWtIvbU69b1Z1JnNnxvFTvIwgUu5ImVx7qOZQp7tIMsD1Cj8jC1DBPOgFj0beirmxdDKXYVbonGTlRcgQ</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2081824,40.7860528,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Abuelo Fuego</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/Lc3Vk8gm5xz7xuxq5Lo41_h--xQ8E_idFWPHZa7dMdOILTmIR00TpEQATdXXDBvSwrWnPdltX7t9zlfoXXQ88CLwboLfCQAlDsiDZxyPBcggrf2J9BA4yPAhIGijKP3P" height="200" width="auto" /><br><br>description: [Man Pavilion Shrine]<br>Abuelo Fuego is a shrine composed of a human effigy and a sacred mask Relic. The depicted being is a vessel of the torch of wisdom and wealth of knowledge through time. The top form emerges and rests as a crown on the head which is encircled with designs in relief. Wisdom and power is conjured through offering, ritual cleansing and dance. As a vessel, this shrine will burn with the Man and reveal a second Relic sub form.<br>Events: <br>Link: ]]></description>
+      <styleUrl>#icon-ci-10-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>[Man Pavilion Shrine]
+Abuelo Fuego is a shrine composed of a human effigy and a sacred mask Relic. The depicted being is a vessel of the torch of wisdom and wealth of knowledge through time. The top form emerges and rests as a crown on the head which is encircled with designs in relief. Wisdom and power is conjured through offering, ritual cleansing and dance. As a vessel, this shrine will burn with the Man and reveal a second Relic sub form.</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/Lc3Vk8gm5xz7xuxq5Lo41_h--xQ8E_idFWPHZa7dMdOILTmIR00TpEQATdXXDBvSwrWnPdltX7t9zlfoXXQ88CLwboLfCQAlDsiDZxyPBcggrf2J9BA4yPAhIGijKP3P</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2084756,40.7866755,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Morning Ritual</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/5Q8cgR3iDWiOUaRvFR_yY1ySOuDLSXfRa2aIKVMMBdErGg7coUifzV8pOwp463SEUHrDhJlpf3PxWo8dvQuBz0h8xUD0L1mJq6TTDVSbdlUuRvMnq3VXBGpMEndhx4s" height="200" width="auto" /><br><br>description: [Man Pavilion Shrine]<br>Morning Ritual is a dedication to the most unsung hero in our homes. Whether it’s the parent that needs a couple of minutes to themselves, a close embrace after a long night of drinking, the morning expulsion of fluids and matter, a young woman coming to learn of her transformation, or just a quick pee - the toilet is the ever present and sacrificial lamb to a clean and sanitary living.<br><br>The toilet stands 5 feet tall made of CNC plywood.<br><br>Morning Ritual will be placed near the 9 o'clock radial surrounding the Man. It is part of over 30 different art projects celebrating the sacred new age shrines of Burning Man 2017's theme: Radical Ritual. Larry Harvey himself hand picked our shrine, along with other members of the decision making team.<br>Events: Monday 6:45pm - Processional<br><br>We will be joining the Golden Bunny Shrine processional on Monday at 6:45pm to walk to the morning ritual shrine from our camp (Furry Gorilla Warfare at 5:15 and Ceremony). Carrying our plungers and handing out single ply toilet paper.<br><br>Friday at Dusk - Processional preparing for the burn<br><br>Link: https://www.facebook.com/MorningRitualBM17]]></description>
+      <styleUrl>#icon-ci-11-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value><![CDATA[[Man Pavilion Shrine]
+Morning Ritual is a dedication to the most unsung hero in our homes. Whether it’s the parent that needs a couple of minutes to themselves, a close embrace after a long night of drinking, the morning expulsion of fluids and matter, a young woman coming to learn of her transformation, or just a quick pee - the toilet is the ever present and sacrificial lamb to a clean and sanitary living.
+
+The toilet stands 5 feet tall made of CNC plywood.
+
+Morning Ritual will be placed near the 9 o'clock radial surrounding the Man. It is part of over 30 different art projects celebrating the sacred new age shrines of Burning Man 2017's theme: Radical Ritual. Larry Harvey himself hand picked our shrine, along with other members of the decision making team.]]></value>
+        </Data>
+        <Data name="Events">
+          <value>Monday 6:45pm - Processional
+
+We will be joining the Golden Bunny Shrine processional on Monday at 6:45pm to walk to the morning ritual shrine from our camp (Furry Gorilla Warfare at 5:15 and Ceremony). Carrying our plungers and handing out single ply toilet paper.
+
+Friday at Dusk - Processional preparing for the burn
+</value>
+        </Data>
+        <Data name="Link">
+          <value>https://www.facebook.com/MorningRitualBM17</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/5Q8cgR3iDWiOUaRvFR_yY1ySOuDLSXfRa2aIKVMMBdErGg7coUifzV8pOwp463SEUHrDhJlpf3PxWo8dvQuBz0h8xUD0L1mJq6TTDVSbdlUuRvMnq3VXBGpMEndhx4s</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2081999,40.7876735,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Guilded Brine Shrimp</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/UzHOBbiQPfDQP_WTplKgV9laTYlUvijh7Gm8IIhbQ7Ra7XFHrIPTvGpn5zteZKBXl3lsz_iFXoMziECI9APU7T2xgKqee2LtPXZ3qB1FeMNdacqMKRMP0SeGhEGJl5Mf" height="200" width="auto" /><br><br>description: [Man Pavilion Shrine]<br>The Gilded Brine Shrimp Shrine is a testament to the most radical ritual of all, that of the life of the Brine Shrimp every year on the flooded playa. The Brine Shrimp worshipers wish to take this opportunity to build a Golden Shrine to this amazing Artemia. With a large shrine in the shape of a half globe, representing the Brine Shrimp egg in cryptobiosis, the Brine Shrimp worshipers will present to the Gilded Brine Shrimp a large golden cloth to represent water. Sitting atop the half globe is a large Gilded Brine Shrimp, watching closely his offspring.<br>Events: <br>Link: ]]></description>
+      <styleUrl>#icon-ci-12-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>[Man Pavilion Shrine]
+The Gilded Brine Shrimp Shrine is a testament to the most radical ritual of all, that of the life of the Brine Shrimp every year on the flooded playa. The Brine Shrimp worshipers wish to take this opportunity to build a Golden Shrine to this amazing Artemia. With a large shrine in the shape of a half globe, representing the Brine Shrimp egg in cryptobiosis, the Brine Shrimp worshipers will present to the Gilded Brine Shrimp a large golden cloth to represent water. Sitting atop the half globe is a large Gilded Brine Shrimp, watching closely his offspring.</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/UzHOBbiQPfDQP_WTplKgV9laTYlUvijh7Gm8IIhbQ7Ra7XFHrIPTvGpn5zteZKBXl3lsz_iFXoMziECI9APU7T2xgKqee2LtPXZ3qB1FeMNdacqMKRMP0SeGhEGJl5Mf</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2068959,40.7878527,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Android Jones and Microdose VR</name>
+      <description><![CDATA[description: Virtual reality experiences and art gallery at 2:00 and Genuflect across from Camp Mystic<br>Events: Sundown to sunup <br>Link: ]]></description>
+      <styleUrl>#icon-ci-13-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Virtual reality experiences and art gallery at 2:00 and Genuflect across from Camp Mystic</value>
+        </Data>
+        <Data name="Events">
+          <value>Sundown to sunup </value>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.1913014,40.7844165,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Aqueous</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/dXFZuqWLjJgx_YDxsBWg5g2tMvgSLmkrZq7uDii2DPnxSgnoPpXyUxaPG_d0POkMvhJZXonRuzJublhYa6Ohuu3BQuNintpGUIX_Dj1OHFDyfRjIJC5vx52KqauKc461" height="200" width="auto" /><br><br>description: [Location TBD]<br>Aqueous in an interactive landscape of meandering pathways of light. During the day Aqueous will shift in color and reflection, mirroring the sky within a walkable dichroic surface. At night, Aqueous will flow and glow in full illuminated interactivity, engaging large groups in collaborative play.<br>Events: <br>Link: http://jenlewinstudio.com/aqueous]]></description>
+      <styleUrl>#icon-ci-14-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>[Location TBD]
+Aqueous in an interactive landscape of meandering pathways of light. During the day Aqueous will shift in color and reflection, mirroring the sky within a walkable dichroic surface. At night, Aqueous will flow and glow in full illuminated interactivity, engaging large groups in collaborative play.</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value>http://jenlewinstudio.com/aqueous</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/dXFZuqWLjJgx_YDxsBWg5g2tMvgSLmkrZq7uDii2DPnxSgnoPpXyUxaPG_d0POkMvhJZXonRuzJublhYa6Ohuu3BQuNintpGUIX_Dj1OHFDyfRjIJC5vx52KqauKc461</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.1982983,40.7873023,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Black Rock Blind Tiger</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/p972OUgLQY9aK2YWPEWSiIStnOYmdMxjqJYiz59oM2D-EjJZqgfZNBZhAVcTURvbScKjXW-7mSdJRgw0xDfj3gADrtUrok9Tl_AK_9nxElWEO2anEEe7RNSVuQybrvEJ" height="200" width="auto" /><br><br>description: [Location TBD]<br>The Black Rock Blind Tiger is a rustic, vintage speakeasy and brothel deep within the playa, containing many oddities, gadgets and alluring objects. Participate, explore and immerse yourself to experience the magic of the Black Rock Blind Tiger. On the outside of these mysterious structures, there are gears at work—rumbling away, while producing delicate gifts. Enjoy the view from the widow’s walk, crowned with a charming cupola. Invent your own experience by touching, exploring and playing with all of the intriguing objects. Try gazing into the windows to see the playa past. Explore each of the objects, some will help keep you warm on those magical, chilly nights. Figure out the clues to determine the password which will allow you inside, but keep in mind—all the clues of yesterday will rapidly change to keep the Blind Tiger and its mysteries concealed. Once you’ve unlocked the pathway to the inside, enjoy the swanky speakeasy, dance to jazz, and receive your own personalized prescription.<br><br>Events: <br>Link: <br><br><img src="https://lh4.googleusercontent.com/hSKRtyVT0UerKCD6v8e4jWwwCItXV26ViGSIIqcJZY_cqwYBlpPrv79NKAIw7jrkoToFwxqsn2qxvNkKNmt02lK7PjVR2gWNxkNQxaZBDDD4VK8b1AoSjVkq-QDcqEE3" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-ci-15-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>[Location TBD]
+The Black Rock Blind Tiger is a rustic, vintage speakeasy and brothel deep within the playa, containing many oddities, gadgets and alluring objects. Participate, explore and immerse yourself to experience the magic of the Black Rock Blind Tiger. On the outside of these mysterious structures, there are gears at work—rumbling away, while producing delicate gifts. Enjoy the view from the widow’s walk, crowned with a charming cupola. Invent your own experience by touching, exploring and playing with all of the intriguing objects. Try gazing into the windows to see the playa past. Explore each of the objects, some will help keep you warm on those magical, chilly nights. Figure out the clues to determine the password which will allow you inside, but keep in mind—all the clues of yesterday will rapidly change to keep the Blind Tiger and its mysteries concealed. Once you’ve unlocked the pathway to the inside, enjoy the swanky speakeasy, dance to jazz, and receive your own personalized prescription.
+</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/p972OUgLQY9aK2YWPEWSiIStnOYmdMxjqJYiz59oM2D-EjJZqgfZNBZhAVcTURvbScKjXW-7mSdJRgw0xDfj3gADrtUrok9Tl_AK_9nxElWEO2anEEe7RNSVuQybrvEJ https://lh4.googleusercontent.com/hSKRtyVT0UerKCD6v8e4jWwwCItXV26ViGSIIqcJZY_cqwYBlpPrv79NKAIw7jrkoToFwxqsn2qxvNkKNmt02lK7PjVR2gWNxkNQxaZBDDD4VK8b1AoSjVkq-QDcqEE3</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.191875,40.8005701,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Black Rock Observatory</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/q4TKChPFlrDcf4AD6_LtKLAMmEZVpzfBp_oOyV6Nf0rjKNqsVpyLEyZZMAgqPjKpW1sP8QGxWoXJwxX19SpjLHLttfXnj_kNSvzl8znQ60SqWaNP-Q_qJxLmYwkywllf" height="200" width="auto" /><br><br>description: [Location TBD]<br>Welcome to the Black Rock Observatory. We are a mobile astronomical observatory dedicated to showing people just how amazing the universe is.<br><br>Events: This year we will be bringing a 20" aperture Dobsonian telescope to the playa! Together with the Desert Wizards, who brought you the Mars Rover last year, we'll have an observatory on the playa to house the 10' telescope, host star parties, events and more! You can expect to see planets, galaxies and nebulas if the conditions are right! <br>Link: http://www.blackrockobservatory.com<br><br><img src="https://lh3.googleusercontent.com/iqRDQBOnsOS8ZQWr5b0ES4vxDVhK6qC8ciAHs8cUi5ySbUxh-c4VOJ0zlURpDUR0eP5u84AGimJLjDrk1U-CW7CzvYqwY0CDu87ur_GXCxFxoP8PIkRmC1zvP5jLN6_s" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-ci-16-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>[Location TBD]
+Welcome to the Black Rock Observatory. We are a mobile astronomical observatory dedicated to showing people just how amazing the universe is.
+</value>
+        </Data>
+        <Data name="Events">
+          <value><![CDATA[This year we will be bringing a 20" aperture Dobsonian telescope to the playa! Together with the Desert Wizards, who brought you the Mars Rover last year, we'll have an observatory on the playa to house the 10' telescope, host star parties, events and more! You can expect to see planets, galaxies and nebulas if the conditions are right! ]]></value>
+        </Data>
+        <Data name="Link">
+          <value>http://www.blackrockobservatory.com</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/q4TKChPFlrDcf4AD6_LtKLAMmEZVpzfBp_oOyV6Nf0rjKNqsVpyLEyZZMAgqPjKpW1sP8QGxWoXJwxX19SpjLHLttfXnj_kNSvzl8znQ60SqWaNP-Q_qJxLmYwkywllf https://lh3.googleusercontent.com/iqRDQBOnsOS8ZQWr5b0ES4vxDVhK6qC8ciAHs8cUi5ySbUxh-c4VOJ0zlURpDUR0eP5u84AGimJLjDrk1U-CW7CzvYqwY0CDu87ur_GXCxFxoP8PIkRmC1zvP5jLN6_s</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.186539,40.8017552,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Blind Leading The Blind (Question Rituals)</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/YyTZxnafT3N-URICDmb1QhC_RChGBmT1o0GYrbuuR6R1Ja8skQpEzDdnOLh5BvHndJmIcm7X2pIH8GI5R0KOzohY9L2w8gRvusKYsM5-3BwM5ksnwwuYD0ssExAxGUvF" height="200" width="auto" /><br><br>description: 35 x 35 digital photo-montage located at Center Camp Cafe Kiosk<br>Events: <br>Link: http://alexanderhirka.nyc/galleries/blind-leading-the-blind]]></description>
+      <styleUrl>#icon-ci-17-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>35 x 35 digital photo-montage located at Center Camp Cafe Kiosk</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value>http://alexanderhirka.nyc/galleries/blind-leading-the-blind</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/YyTZxnafT3N-URICDmb1QhC_RChGBmT1o0GYrbuuR6R1Ja8skQpEzDdnOLh5BvHndJmIcm7X2pIH8GI5R0KOzohY9L2w8gRvusKYsM5-3BwM5ksnwwuYD0ssExAxGUvF</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2128879,40.7818088,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>#BurnerShaveSigns</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/EolE2PMRXvUWOmdcNqUroFqBoHJKav61Qy4K2GgXR_6ApsLYtYve3kOpL4KfRW3OX2d0PQg3v_U6m0FkSDAW7WW1krFTZXHgOVD1uQ6u4KV40PBlEnj68L6ZgeGW7tPW" height="200" width="auto" /><br><br>description: Similar to Burma Shave signs, Burner Shave Signs will seek to entertain and humor you. The signs should be read from left to right as you walk or run along the trash fence.<br>Events: All week<br>Link: <br><br><img src="https://lh4.googleusercontent.com/QeXAf2EdFPwdpa-AoMl1BmPTfGepn3xHm11aOq6kWgn6UlfsBY-1JJAvkkJXT4LdghL8tUl-Zis4V9waYSnBTmSRspHpaXE-9JLMIkt1ozKB2A6zQYpCdR1VuyvIUrGV" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/6AY8Mf42TBED7OD9DfIkj2Fe25U0OA1GM6grtiqfPhfPpgr2S6pwLPVZNp72nDp8DAMQ5EJ5AsuaAksCN7yGqtDLQfU28QJtZcRcPOzRXXiq_3szsLxwzfsBDqfd_u0" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-ci-18-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Similar to Burma Shave signs, Burner Shave Signs will seek to entertain and humor you. The signs should be read from left to right as you walk or run along the trash fence.</value>
+        </Data>
+        <Data name="Events">
+          <value>All week</value>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/EolE2PMRXvUWOmdcNqUroFqBoHJKav61Qy4K2GgXR_6ApsLYtYve3kOpL4KfRW3OX2d0PQg3v_U6m0FkSDAW7WW1krFTZXHgOVD1uQ6u4KV40PBlEnj68L6ZgeGW7tPW https://lh4.googleusercontent.com/QeXAf2EdFPwdpa-AoMl1BmPTfGepn3xHm11aOq6kWgn6UlfsBY-1JJAvkkJXT4LdghL8tUl-Zis4V9waYSnBTmSRspHpaXE-9JLMIkt1ozKB2A6zQYpCdR1VuyvIUrGV https://lh3.googleusercontent.com/6AY8Mf42TBED7OD9DfIkj2Fe25U0OA1GM6grtiqfPhfPpgr2S6pwLPVZNp72nDp8DAMQ5EJ5AsuaAksCN7yGqtDLQfU28QJtZcRcPOzRXXiq_3szsLxwzfsBDqfd_u0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.184545,40.7956639,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Charon</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/9Wu-XoANvobXWMtCV5lS0EKJumPneFJnNe50y3aT7fvuITyjaL6aie-NOnk1543BN5UT0sZsVPndYOEP7sKdxiwOBrEqhvINE1Z8Bsn7OgMxzHgDpCHODDpXCgFj6iB_LA" height="200" width="auto" /><br><br>description: [Location TBD]<br>A gigantic 30′ spinning wheel with posed human skeletons mounted on its inner edge, Peter Hudson's CHARON is fully powered by a minimum of 12 people working in unison. Participants are invited to pull a series of 6 ropes which cause the wheel to rotate progressively faster. When the rope pullers are coordinated enough to get the wheel spinning at the correct speed, a strobe is activated, revealing the skeletons’ animation. The animation tells the story of Charon, the mythological gondolier and ferryman of Hades who carried the souls of the recently departed across the river Styx, the last right of passage on the way to the afterlife.<br><br>Events: <br>Link: https://www.hudzo.com/charon/<br><br><img src="https://lh5.googleusercontent.com/0xYlV95LvF59jLPJQg1Y-XtOlltlu22JgopZhavIQ1Wy8_jklbBdCBxW2T1-1rOF8iQBQwP-0lUXscMRiUrXnLbWi7hsqEj_BhrnftcD4aEr36G9IIw_NAQ0BIs2ycuB" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-ci-19-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value><![CDATA[[Location TBD]
+A gigantic 30′ spinning wheel with posed human skeletons mounted on its inner edge, Peter Hudson's CHARON is fully powered by a minimum of 12 people working in unison. Participants are invited to pull a series of 6 ropes which cause the wheel to rotate progressively faster. When the rope pullers are coordinated enough to get the wheel spinning at the correct speed, a strobe is activated, revealing the skeletons’ animation. The animation tells the story of Charon, the mythological gondolier and ferryman of Hades who carried the souls of the recently departed across the river Styx, the last right of passage on the way to the afterlife.
+]]></value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value>https://www.hudzo.com/charon/</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/9Wu-XoANvobXWMtCV5lS0EKJumPneFJnNe50y3aT7fvuITyjaL6aie-NOnk1543BN5UT0sZsVPndYOEP7sKdxiwOBrEqhvINE1Z8Bsn7OgMxzHgDpCHODDpXCgFj6iB_LA https://lh5.googleusercontent.com/0xYlV95LvF59jLPJQg1Y-XtOlltlu22JgopZhavIQ1Wy8_jklbBdCBxW2T1-1rOF8iQBQwP-0lUXscMRiUrXnLbWi7hsqEj_BhrnftcD4aEr36G9IIw_NAQ0BIs2ycuB</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2025292,40.7931325,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cheese Maze 2.0</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/WTv9DqUuyR2QeHcv5mrtAWs-h3rr1B7s2V5cW4rSVh6N_gzYGuJbptuEo75GwJJFSb8l5DYP55B7zvM96JVfY5ZREES-vVMO_aIZZFhtfAJtUDWLrWbyX4fWiz3uGoVM" height="200" width="auto" /><br><br>description: A giant maze with over 30 bridges<br>Events: <br>Link: <br><br><a href="https://www.youtube.com/watch?v=di6l3SbGXzo"><img src="http://img.youtube.com/vi/di6l3SbGXzo/hqdefault.jpg" height="200" width="auto" /></a><br><br><a href="https://www.youtube.com/embed/di6l3SbGXzo">https://www.youtube.com/embed/di6l3SbGXzo</a>]]></description>
+      <styleUrl>#icon-ci-20-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>A giant maze with over 30 bridges</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/WTv9DqUuyR2QeHcv5mrtAWs-h3rr1B7s2V5cW4rSVh6N_gzYGuJbptuEo75GwJJFSb8l5DYP55B7zvM96JVfY5ZREES-vVMO_aIZZFhtfAJtUDWLrWbyX4fWiz3uGoVM https://www.youtube.com/embed/di6l3SbGXzo</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.1939462,40.7862686,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Collective Heart</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/KX8gzsBa66USjnzwok9cfjqkvt3cwK9xoICpPSVxZdYVcuGgKG5CB6j0OPXYAeEfEW4QeY-9xIFPSrSGx8n9b1UZROOQliPqyt6s1ZkM7DNeB76ru8gnWOs4PII9_mmE" height="200" width="auto" /><br><br>description: the COllective heART is a sculptural project featuring interactive light and sound designed and powered by human touch<br>Events: <br>Link: ]]></description>
+      <styleUrl>#icon-ci-21-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>the COllective heART is a sculptural project featuring interactive light and sound designed and powered by human touch</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/KX8gzsBa66USjnzwok9cfjqkvt3cwK9xoICpPSVxZdYVcuGgKG5CB6j0OPXYAeEfEW4QeY-9xIFPSrSGx8n9b1UZROOQliPqyt6s1ZkM7DNeB76ru8gnWOs4PII9_mmE</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.224083,40.7880515,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Convulsatorium</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/katBb9KG80x0l1STN4AurGyi-qYKAocUZz-JC3n9eCQL7e6Dj-hVcNpstszgby8NhwqDow0F676KM2DaWFuzdOVRYruFCM_oG_f8IbXWtZeQnTwXqzPqpjFDjj3SV5E" height="200" width="auto" /><br><br>description: Kaos<br>Events: <br>Link: <br><br><img src="https://lh4.googleusercontent.com/QvesY1f5tcrTI9N-k2Tc9FIfowUySWq8-vZWBk7_mtQu9Loc26L9ujI5LoRytlP5U1Yte2daSO9Y6C5FzPwF9BLygK626_mQKiy-9zr-wpK0YYSxsnqWZGnfwzA4BTnc" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-ci-22-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Kaos</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/katBb9KG80x0l1STN4AurGyi-qYKAocUZz-JC3n9eCQL7e6Dj-hVcNpstszgby8NhwqDow0F676KM2DaWFuzdOVRYruFCM_oG_f8IbXWtZeQnTwXqzPqpjFDjj3SV5E https://lh4.googleusercontent.com/QvesY1f5tcrTI9N-k2Tc9FIfowUySWq8-vZWBk7_mtQu9Loc26L9ujI5LoRytlP5U1Yte2daSO9Y6C5FzPwF9BLygK626_mQKiy-9zr-wpK0YYSxsnqWZGnfwzA4BTnc</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2144748,40.7843384,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cosmic Space Worm</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/CSQB7DeW1tnyxUHXpGf-oYPPZvA9u3f5y2Y43nXSzIeLn-vKsSb9VJcOCQPJPi3CO3F4HimqJqmMNjXjvUCQG9v1S0tEYUpIkrvaZSftUSOAGTSFosjsOZNByd2Dk_I" height="200" width="auto" /><br><br>description: THE COSMIC SPACE WORM - a pedal-powered, segmented, aluminum worm built upon a train of adult tricycles. Able to hold up to five riders, the Space Worm will shine during the day with its metallic skin, and will shine at night with hundreds of color changing LEDs from within. It will be a sight to see!<br>Events: <br>Link: http://www.tylerfuquacreations.com/the-cosmic-space-worm.html]]></description>
+      <styleUrl>#icon-ci-23-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>THE COSMIC SPACE WORM - a pedal-powered, segmented, aluminum worm built upon a train of adult tricycles. Able to hold up to five riders, the Space Worm will shine during the day with its metallic skin, and will shine at night with hundreds of color changing LEDs from within. It will be a sight to see!</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value>http://www.tylerfuquacreations.com/the-cosmic-space-worm.html</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/CSQB7DeW1tnyxUHXpGf-oYPPZvA9u3f5y2Y43nXSzIeLn-vKsSb9VJcOCQPJPi3CO3F4HimqJqmMNjXjvUCQG9v1S0tEYUpIkrvaZSftUSOAGTSFosjsOZNByd2Dk_I</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2103161,40.7854653,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Coyote Garden</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/sGXHpzz6awsRpr2Nhg43GJM0_nBAew7p7SE2eKroWc_CVF8am-k3R9cIVF8CrtrivZ2mN6u5XkOS9OVvQD04WocN6T0ficdpW2W_2EcGNbY-pE2w2T1voUi2uH7q_vpYeg" height="200" width="auto" /><br><br>description: Coyote Garden is an interactive UV art installation created by over 30 artists and designers from around the world. Each coyote in the garden is a separate canvas that was presented to a different artist with complete artistic freedom. Coyote Garden was also created in part to help increase "coyote consciousness" and break down the 200+ year misinformation campaign that has vilified coyotes and made them the most persecuted animal in America history.<br><br>Events: <br>Link: ]]></description>
+      <styleUrl>#icon-ci-24-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value><![CDATA[Coyote Garden is an interactive UV art installation created by over 30 artists and designers from around the world. Each coyote in the garden is a separate canvas that was presented to a different artist with complete artistic freedom. Coyote Garden was also created in part to help increase "coyote consciousness" and break down the 200+ year misinformation campaign that has vilified coyotes and made them the most persecuted animal in America history.
+]]></value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/sGXHpzz6awsRpr2Nhg43GJM0_nBAew7p7SE2eKroWc_CVF8am-k3R9cIVF8CrtrivZ2mN6u5XkOS9OVvQD04WocN6T0ficdpW2W_2EcGNbY-pE2w2T1voUi2uH7q_vpYeg</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2172921,40.7865855,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Crystal Cat Thedral </name>
+      <description><![CDATA[description: A cathedral made of vines. <br>The unusually high water levels reclaiming Ancient Lake Lahontan this year have resulted in a rare occurrence. Turquoise vines bearing quartz crystals are sprouting upwards from the once dry desert floor. Alien cat-like forms are emerging from this primordial soup. These fantastic felines appear to be praying for (or perhaps preying on) their flat-faced human participants…<br>Events: Twice daily mass <br>Link: ]]></description>
+      <styleUrl>#icon-ci-25-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>A cathedral made of vines.
+The unusually high water levels reclaiming Ancient Lake Lahontan this year have resulted in a rare occurrence. Turquoise vines bearing quartz crystals are sprouting upwards from the once dry desert floor. Alien cat-like forms are emerging from this primordial soup. These fantastic felines appear to be praying for (or perhaps preying on) their flat-faced human participants…</value>
+        </Data>
+        <Data name="Events">
+          <value>Twice daily mass </value>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.1858413,40.8000258,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dance for the Dawn</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/iXb1eMcKwsciB5oM4sbO0kBkMbYlfG15zpY--ql8fJy6ewplWJwfeWiKbR9LngIvPWOQLBlOdD0wm0wu3O6_JBE97rZEUT8n6sXoliEdJcd-ict7ZDuoXrc0QPppe3otVQ" height="200" width="auto" /><br><br>description: [Location TBD]<br>Created by Lithuanian Burners, Dance for the Dawn is a ritual of dancing hands that symbolize our unity and living in synchronous harmony. It is our sight of the world around us. <br><br>The moving parts and integrated lights of the installation create endless loop and calls all burners for a relaxed ritual of the dawn. Small mirrors inside the hands play additionally with lights and reflections. Shadows of hands create a feeling of oracle magic.<br><br>Events: <br>Link: https://www.facebook.com/DanceForTheDawn]]></description>
+      <styleUrl>#icon-ci-26-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>[Location TBD]
+Created by Lithuanian Burners, Dance for the Dawn is a ritual of dancing hands that symbolize our unity and living in synchronous harmony. It is our sight of the world around us.
+
+The moving parts and integrated lights of the installation create endless loop and calls all burners for a relaxed ritual of the dawn. Small mirrors inside the hands play additionally with lights and reflections. Shadows of hands create a feeling of oracle magic.
+</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value>https://www.facebook.com/DanceForTheDawn</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/iXb1eMcKwsciB5oM4sbO0kBkMbYlfG15zpY--ql8fJy6ewplWJwfeWiKbR9LngIvPWOQLBlOdD0wm0wu3O6_JBE97rZEUT8n6sXoliEdJcd-ict7ZDuoXrc0QPppe3otVQ</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2071533,40.7823043,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Daruma</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/RQ2G4IFDycrsnv-8IlzM5ZNvK8ys4woi05Vx8ahjWq0XSK_lAjL6JHiXm3vk1_pTYmmD7RqsdCAHah8y6ZmR38Om8OfnwbAjiSS0_xgkjW140ByzIPX3bMDjqLrZK_-m" height="200" width="auto" /><br><br>description: The Daruma is a Japanese doll used for intention and goal setting. <br>Events: Black Rock City Citizens will be given the chance to dot in one of the Daruma’s eyes during intention setting ritual ceremonies.<br>Link: http://www.darumaproject.org/]]></description>
+      <styleUrl>#icon-ci-27-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>The Daruma is a Japanese doll used for intention and goal setting. </value>
+        </Data>
+        <Data name="Events">
+          <value>Black Rock City Citizens will be given the chance to dot in one of the Daruma’s eyes during intention setting ritual ceremonies.</value>
+        </Data>
+        <Data name="Link">
+          <value>http://www.darumaproject.org/</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/RQ2G4IFDycrsnv-8IlzM5ZNvK8ys4woi05Vx8ahjWq0XSK_lAjL6JHiXm3vk1_pTYmmD7RqsdCAHah8y6ZmR38Om8OfnwbAjiSS0_xgkjW140ByzIPX3bMDjqLrZK_-m</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.211115,40.787617,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>#DidNotFinish</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/RjyNUQ2sUYMOOAABw0qBkXPWSwRlq6NeVYqlVUi9dbNTFsiwt0PzKhiWrbBdLvNOJ2xCRz3lKSCfw3gVaBYNJArEetnd_LAk6OOdDrl7PM3v1RH-lTcGJvNrx_h386WTcA" height="200" width="auto" /><br><br>description: #DidNotFinish - A skeleton by the trash fence wearing Burning Man 50k ultramarathon shirt and runner bib, with a "50k Ultramarathon Official Notice" sign listing hashtags why perhaps this person running the Burning Man Ultramarathon was not such a good idea.<br><br>Each year, over 200 burners start the Burning Man 50k (31 mile) ultramarathon running race. But not everyone finishes...<br><br>Here's a runner that perhaps had the best of intentions but, alas, it didn't work out so well for this burner. Maybe more training, maybe more water, but radical self reliance failed and now, like the failed climbers on Mt Everest, this runner humorously stands watch for all who now try.<br>Events: <br>Link: ]]></description>
+      <styleUrl>#icon-ci-28-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value><![CDATA[#DidNotFinish - A skeleton by the trash fence wearing Burning Man 50k ultramarathon shirt and runner bib, with a "50k Ultramarathon Official Notice" sign listing hashtags why perhaps this person running the Burning Man Ultramarathon was not such a good idea.
+
+Each year, over 200 burners start the Burning Man 50k (31 mile) ultramarathon running race. But not everyone finishes...
+
+Here's a runner that perhaps had the best of intentions but, alas, it didn't work out so well for this burner. Maybe more training, maybe more water, but radical self reliance failed and now, like the failed climbers on Mt Everest, this runner humorously stands watch for all who now try.]]></value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/RjyNUQ2sUYMOOAABw0qBkXPWSwRlq6NeVYqlVUi9dbNTFsiwt0PzKhiWrbBdLvNOJ2xCRz3lKSCfw3gVaBYNJArEetnd_LAk6OOdDrl7PM3v1RH-lTcGJvNrx_h386WTcA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.1836031,40.7900275,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Electric Dandelions</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/tGx0VTW9BHUqfLWNM9xO5CmnLulOac2PT_aXu7-yyWiuGjYtxGoh9ZcKc523wDvnXgZ5sLpl8AtvMe-fLT58IWioc_HaN-WdjSGDa_o4zjXq8LriCVoumKEcITvZN5b_" height="200" width="auto" /><br><br>description: 2 Giant Dandelion sculptures that double as fireworks in the sky at night.<br>Events: Sunday 27th 6pm - 9pm and Wednesday 6pm-Sunrise.<br>Link: http://liquidpxl.com/portfolio/electric-dandelions<br><br><img src="https://lh5.googleusercontent.com/sJKHgsohVcyuhXcxsnYT2dMiNN-Eb_D3f-7aWaDumvZUK5-pEI5q84SejiW8QVeq4ofCyvXwe0ebsiyT_qpP4GP85k0EOJ3KNYUjKxESqe0LFamp4OMB4gxXmJihw1k" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-ci-29-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>2 Giant Dandelion sculptures that double as fireworks in the sky at night.</value>
+        </Data>
+        <Data name="Events">
+          <value>Sunday 27th 6pm - 9pm and Wednesday 6pm-Sunrise.</value>
+        </Data>
+        <Data name="Link">
+          <value>http://liquidpxl.com/portfolio/electric-dandelions</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/tGx0VTW9BHUqfLWNM9xO5CmnLulOac2PT_aXu7-yyWiuGjYtxGoh9ZcKc523wDvnXgZ5sLpl8AtvMe-fLT58IWioc_HaN-WdjSGDa_o4zjXq8LriCVoumKEcITvZN5b_ https://lh5.googleusercontent.com/sJKHgsohVcyuhXcxsnYT2dMiNN-Eb_D3f-7aWaDumvZUK5-pEI5q84SejiW8QVeq4ofCyvXwe0ebsiyT_qpP4GP85k0EOJ3KNYUjKxESqe0LFamp4OMB4gxXmJihw1k</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2130971,40.7848714,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Free Range Animal Automata Menagerie</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/A1nYgaotk4z8h9sXoG1drKpHy4PTq8iuXy7lzKp_ztcMYejCfxIKzpqCM8D2kMi70sCxJRkKJsNwTUTSITfCKbfkrHYVKCDR9DOlUFf1EfyqHhqUU3BrPUBfLGMCRmR4jg" height="200" width="auto" /><br><br>description: We will be bringing a collection of large, colorful animal automata to the playa powered by people.<br><br>Events: <br>Link: https://www.indiegogo.com/projects/free-range-animal-automata-burning-man-2017-play-animals#/<br><br><a href="https://www.youtube.com/watch?v=H0iTrVWnFaM"><img src="http://img.youtube.com/vi/H0iTrVWnFaM/hqdefault.jpg" height="200" width="auto" /></a><br><br><a href="https://www.youtube.com/embed/H0iTrVWnFaM">https://www.youtube.com/embed/H0iTrVWnFaM</a>]]></description>
+      <styleUrl>#icon-ci-30-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>We will be bringing a collection of large, colorful animal automata to the playa powered by people.
+</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value>https://www.indiegogo.com/projects/free-range-animal-automata-burning-man-2017-play-animals#/</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/A1nYgaotk4z8h9sXoG1drKpHy4PTq8iuXy7lzKp_ztcMYejCfxIKzpqCM8D2kMi70sCxJRkKJsNwTUTSITfCKbfkrHYVKCDR9DOlUFf1EfyqHhqUU3BrPUBfLGMCRmR4jg https://www.youtube.com/embed/H0iTrVWnFaM</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.206109,40.7893717,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gummy Bear Pyramid</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/sh7Fey4nNvTJclmp5_m7nW3W6MnPFjmiy2dzf86Vx2NGPXoCRO25n8ESO8Wuc2Qs2TUdMaHgDw-DTxWS5wW96VBbI0k8YV3eSDAvOIMkxYxKqHxxITnn7oh-_biylP0i" height="200" width="auto" /><br><br>description: [Location TBD]<br>This is a 12ft tall, 4-sided pyramid made out of over 100,000 hand-cast gummy bears, acrylic, and metal.<br><br>This gummy bear pyramid began as an idea for a light installation using found objects. In time it has transformed into a kind of time machine. A place that invites you back into an illuminated fort of nostalgia.<br>Events: <br>Link: https://www.dicapria.com/pyramid]]></description>
+      <styleUrl>#icon-ci-31-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>[Location TBD]
+This is a 12ft tall, 4-sided pyramid made out of over 100,000 hand-cast gummy bears, acrylic, and metal.
+
+This gummy bear pyramid began as an idea for a light installation using found objects. In time it has transformed into a kind of time machine. A place that invites you back into an illuminated fort of nostalgia.</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value>https://www.dicapria.com/pyramid</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/sh7Fey4nNvTJclmp5_m7nW3W6MnPFjmiy2dzf86Vx2NGPXoCRO25n8ESO8Wuc2Qs2TUdMaHgDw-DTxWS5wW96VBbI0k8YV3eSDAvOIMkxYxKqHxxITnn7oh-_biylP0i</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.1955054,40.7943919,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>House of Enlightenment</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/9JOF8e7QvbJoTpJY8TN7ApiwqGikgQCClEqpoGiyRyQHQKN56ju9KkEp7g-_SY46JwpwxLAzPzJWkojrE8RprEay4n8r7KxPsG6LloE9yZMcIJj5bAGdNL7XJhNQ40E" height="200" width="auto" /><br><br>description: Because, as we all know, stepping outside the bounds of proscribed ritual are where we get into trouble with established authorities. <br>Events: <br>Link: https://douglasruuska.com/tower-of-light<br>https://www.fb.com/HouseOfEnlightenment2017<br>https://www.instagram.com/houseofenlightenment2017<br><br><img src="https://lh6.googleusercontent.com/ceWCINHtbuqQthVbyA6_GNN4CTy_ZkcfP2ERwpj-8JkGsvRO5cNfuEKuQSlxO_GRH_fy8rkLllO0nNIiy_L4BRCS_7wxHEqZZmGfDdTb43CFcEIK11I86Q5y6uuehwct" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-ci-32-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Because, as we all know, stepping outside the bounds of proscribed ritual are where we get into trouble with established authorities. </value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value>https://douglasruuska.com/tower-of-light
+https://www.fb.com/HouseOfEnlightenment2017
+https://www.instagram.com/houseofenlightenment2017</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/9JOF8e7QvbJoTpJY8TN7ApiwqGikgQCClEqpoGiyRyQHQKN56ju9KkEp7g-_SY46JwpwxLAzPzJWkojrE8RprEay4n8r7KxPsG6LloE9yZMcIJj5bAGdNL7XJhNQ40E https://lh6.googleusercontent.com/ceWCINHtbuqQthVbyA6_GNN4CTy_ZkcfP2ERwpj-8JkGsvRO5cNfuEKuQSlxO_GRH_fy8rkLllO0nNIiy_L4BRCS_7wxHEqZZmGfDdTb43CFcEIK11I86Q5y6uuehwct</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2121993,40.786644,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Victrola</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/ljegQ_EMPm5UIlg_OXLAU3GjF7GlqYcPixzn8262KtqPbSjGO7isQAcN5-Yel83VsXvTmDpNXVxNhmMEVyW1kpeyR-8MJrn-QpUwIMPi6llm6tf85_YM-i9VId003MX8" height="200" width="auto" /><br><br>description: La Victrola is a 30-foot tall wood and steel sculpture celebrating the music of a bygone era. Built by a community of volunteer artists at American Steel Studios in Oakland California, its period details, musical curation, and live performances stand as organic counterpoints to modern digital culture. La Victrola entertains and educates the public by playing crackly forgotten recordings from the early 1900s, a time of great innovation in jazz, blues, bluegrass, and country and western. On select evenings, La Victrola’s cabaret stage hosts period appropriate vaudeville and music performances transporting participants back in time.<br>Events: <br>Link: https://lavictrola.org/<br><br><a href="https://www.youtube.com/watch?v=ak4xYJM8wRk"><img src="http://img.youtube.com/vi/ak4xYJM8wRk/hqdefault.jpg" height="200" width="auto" /></a><br><br><a href="https://www.youtube.com/embed/ak4xYJM8wRk">https://www.youtube.com/embed/ak4xYJM8wRk</a>]]></description>
+      <styleUrl>#icon-ci-33-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>La Victrola is a 30-foot tall wood and steel sculpture celebrating the music of a bygone era. Built by a community of volunteer artists at American Steel Studios in Oakland California, its period details, musical curation, and live performances stand as organic counterpoints to modern digital culture. La Victrola entertains and educates the public by playing crackly forgotten recordings from the early 1900s, a time of great innovation in jazz, blues, bluegrass, and country and western. On select evenings, La Victrola’s cabaret stage hosts period appropriate vaudeville and music performances transporting participants back in time.</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value>https://lavictrola.org/</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/ljegQ_EMPm5UIlg_OXLAU3GjF7GlqYcPixzn8262KtqPbSjGO7isQAcN5-Yel83VsXvTmDpNXVxNhmMEVyW1kpeyR-8MJrn-QpUwIMPi6llm6tf85_YM-i9VId003MX8 https://www.youtube.com/embed/ak4xYJM8wRk</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.1905128,40.79297,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Leave No Spirit (shrine)</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/6A9qIuMDBs4jwxsU6xo5kwESzcoYpW9lIDYRm2CWy016qjWoW3hJRViIuxzzvYA0GNF4O4HW5HUJ0iZ36eQtstk3VwBQxVidpQP-8aIWg4ZZstNN-z0bekl6cj_qwW0" height="200" width="auto" /><br><br>description: [One of 30 Shrines around BRC, one of 5 in 4:30 Plaza] <br>Ivy is 8 feet tall and an awesome burner woman.She invites us to celebrate collaboration, youthful spirit and dreams for the future.<br>Events: Processional to the shrine starts at Artery at 6:00 PM Sunday. We will bring a reliquary to complete the installation. We should arrive at the 4:30 plaza around 7.<br>Link: ]]></description>
+      <styleUrl>#icon-ci-34-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>[One of 30 Shrines around BRC, one of 5 in 4:30 Plaza]
+Ivy is 8 feet tall and an awesome burner woman.She invites us to celebrate collaboration, youthful spirit and dreams for the future.</value>
+        </Data>
+        <Data name="Events">
+          <value>Processional to the shrine starts at Artery at 6:00 PM Sunday. We will bring a reliquary to complete the installation. We should arrive at the 4:30 plaza around 7.</value>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/6A9qIuMDBs4jwxsU6xo5kwESzcoYpW9lIDYRm2CWy016qjWoW3hJRViIuxzzvYA0GNF4O4HW5HUJ0iZ36eQtstk3VwBQxVidpQP-8aIWg4ZZstNN-z0bekl6cj_qwW0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2066436,40.7745415,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lost Cargo</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/-F3zTAn4lxLaDZ7I_A8tCmgaXRjfe5gI6nbbmN6HybHCk33jnSMBqL4sRsLh31ADPT342-2UnzmADhRE86zd8sTeno8vHll4ehJIBbmlCivCIfW1QrYhjSsTksp4EdpT" height="200" width="auto" /><br><br>description: [Location TBD]<br>Lost Cargo exists frozen in time, an aircraft moments from crashing. In this moment, who are we? Where are we going? What have we accomplished? Are we afraid?<br>Events: <br>Link: https://www.facebook.com/aLostCargo]]></description>
+      <styleUrl>#icon-ci-35-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>[Location TBD]
+Lost Cargo exists frozen in time, an aircraft moments from crashing. In this moment, who are we? Where are we going? What have we accomplished? Are we afraid?</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value>https://www.facebook.com/aLostCargo</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/-F3zTAn4lxLaDZ7I_A8tCmgaXRjfe5gI6nbbmN6HybHCk33jnSMBqL4sRsLh31ADPT342-2UnzmADhRE86zd8sTeno8vHll4ehJIBbmlCivCIfW1QrYhjSsTksp4EdpT</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.1999328,40.7825968,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>#L❤veChain</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/F-CEsiYhtTyIgaV-I4Kd1g3DlQr0NgLYtFqUfXR6Ds6g5IgAgmbkAG_3VpLU7qTH08lQ70vkblKfUgmexZyH10GeaA4K9NMURWz6Rp2rzZJGr8cAZQol8pWoQmZWSC7h" height="200" width="auto" /><br><br>description: #LOVECHAIN- A 24 Hour Ritual of Radical Hugs at Burning Man 2017<br>Events: For 24 Hours, Tex and Cat will be stationary on the Playa (next to The Pier), awake from sunrise Wednesday 'til sunrise Thursday, giving out FREE HUGS! <br>We'll also be bound to the Playa to give out love via 20 feet of chain, attached to 2 feet of rebar, sunk into the desert floor...<br>Everyone we hug will get a white paper wristband, which they'll be encouraged to write a wish on, then secure it to the other wishes to make a paper chain. That chain will be placed at the Temple, around the altar base by a Global Women's Circle Gathering ceremony on Saturday morning.<br>Link: https://www.facebook.com/events/1336552133047287<br><br><img src="https://lh5.googleusercontent.com/GR8Aw-eeeZl9Su1UxFSMyPxFtFsV-KSu5Ppv9OiXKbIkNfUhIsfe3JdhD7hKac084IMHWCV4uhASg0RYhUudn1ou921UULf9_ekPlLaXDyOe7Mrsd6cfmVm9iSSQKNco" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-ci-36-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>#LOVECHAIN- A 24 Hour Ritual of Radical Hugs at Burning Man 2017</value>
+        </Data>
+        <Data name="Events">
+          <value><![CDATA[For 24 Hours, Tex and Cat will be stationary on the Playa (next to The Pier), awake from sunrise Wednesday 'til sunrise Thursday, giving out FREE HUGS!
+We'll also be bound to the Playa to give out love via 20 feet of chain, attached to 2 feet of rebar, sunk into the desert floor...
+Everyone we hug will get a white paper wristband, which they'll be encouraged to write a wish on, then secure it to the other wishes to make a paper chain. That chain will be placed at the Temple, around the altar base by a Global Women's Circle Gathering ceremony on Saturday morning.]]></value>
+        </Data>
+        <Data name="Link">
+          <value>https://www.facebook.com/events/1336552133047287</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/F-CEsiYhtTyIgaV-I4Kd1g3DlQr0NgLYtFqUfXR6Ds6g5IgAgmbkAG_3VpLU7qTH08lQ70vkblKfUgmexZyH10GeaA4K9NMURWz6Rp2rzZJGr8cAZQol8pWoQmZWSC7h https://lh5.googleusercontent.com/GR8Aw-eeeZl9Su1UxFSMyPxFtFsV-KSu5Ppv9OiXKbIkNfUhIsfe3JdhD7hKac084IMHWCV4uhASg0RYhUudn1ou921UULf9_ekPlLaXDyOe7Mrsd6cfmVm9iSSQKNco</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2142451,40.7861144,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Magic Paint Mirror</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/q8NK-CqA99mQ1C_71F-HelmvlBGfWvP59XD6wnjt3r3XRA5x12klSpXeX3JUxpEXU5cGafTNE_v9TkepXTyec7kQka1K5Vjl9lm3Bkh9kbVcQsjUaYQF-UqzJt4IhHGZ" height="200" width="auto" /><br><br>description: A night time only interactive video piece that allows you to paint pictures with the movement of your hands. Ball two fists in the air in fron of the installation for a brush pallet and color selection. Screen captures from every 10 seconds will be made into a movie at the end of the event.<br>Events: <br>Link: ]]></description>
+      <styleUrl>#icon-ci-37-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>A night time only interactive video piece that allows you to paint pictures with the movement of your hands. Ball two fists in the air in fron of the installation for a brush pallet and color selection. Screen captures from every 10 seconds will be made into a movie at the end of the event.</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/q8NK-CqA99mQ1C_71F-HelmvlBGfWvP59XD6wnjt3r3XRA5x12klSpXeX3JUxpEXU5cGafTNE_v9TkepXTyec7kQka1K5Vjl9lm3Bkh9kbVcQsjUaYQF-UqzJt4IhHGZ</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.199921,40.78454,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Margareta Appalachia</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/vw1FRk2CfhdvUPgAjubUpyDnecf0ay32REEG_m3PnuMBQ2IejCmXbId_hEWSLyyZrXYd8DiqLaDWE5dMlHREM7jALZHp1mRyV9EJCwp2uPeLyhTePNu5zHS9d2lQLumD" height="200" width="auto" /><br><br>description: Phase I: Colossal woman striding across the playa in an interpretation of classical Korean Hanbok robes. Her body, hair and clothing are made out of natural burnable materials, including coal. There is a small 'mine shaft' door in her dress that takes people to a coal-seam inspired room presenting a panorama of a Carboniferous rainforest.<br>Events: At dusk and dawn a 20 minute film "Margaret" (1990) by John McCormick will be projected featuring stories from the life of a Korean-American kid thriving in Appalachia<br>Link: https://sites.google.com/site/margaretaappalachia/]]></description>
+      <styleUrl>#icon-ci-38-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value><![CDATA[Phase I: Colossal woman striding across the playa in an interpretation of classical Korean Hanbok robes. Her body, hair and clothing are made out of natural burnable materials, including coal. There is a small 'mine shaft' door in her dress that takes people to a coal-seam inspired room presenting a panorama of a Carboniferous rainforest.]]></value>
+        </Data>
+        <Data name="Events">
+          <value><![CDATA[At dusk and dawn a 20 minute film "Margaret" (1990) by John McCormick will be projected featuring stories from the life of a Korean-American kid thriving in Appalachia]]></value>
+        </Data>
+        <Data name="Link">
+          <value>https://sites.google.com/site/margaretaappalachia/</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/vw1FRk2CfhdvUPgAjubUpyDnecf0ay32REEG_m3PnuMBQ2IejCmXbId_hEWSLyyZrXYd8DiqLaDWE5dMlHREM7jALZHp1mRyV9EJCwp2uPeLyhTePNu5zHS9d2lQLumD</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.202714,40.7874916,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Meownge</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/7i-HJHDygpvSCjs_odq18mc3VTCnBerlAbF_gS_HxO7Z2xJgW1fzUAneXAqGwf2iruaQZ8q0Gea5DHONnb6GVv70iRZ7QL2m4xOSrAStPm-4-TelFgfHEoANp4mOn0V5" height="200" width="auto" /><br><br>description: As you approach the Meownge, prepare to be hypnotized by an interactive 14 foot tall cat head structure. Your curiosity will surely kick in and you won’t be able to help yourself. Crafted out of conduit and 4 way stretch lycra the Meownge will provide you and your feline friends with enough shade and space to nap the day away. With amplified purrs resonating from it's ears, you'll find yourself in a blissfull zone of total relaxation. Purrrrfect to help you prepare for the true party animal you are. Which of course, comes out at night. As the sun falls into the horizon and the stars begin to twinkle, the Meownge transforms into an interactive light piece that invites you to play! It's spot light eyes will track and lure you in, challenging you to take control. Lined with over 600 feet of LEDs you will decide what happens next. Your movements will direct how each LED will react. Imagine, an orchestra of lights coming to life with your very own feline prowess! The best part? All cats are welcome! Come to the Meownge to groom your soul and explore the kitty you always knew you were.<br>Events: <br>Link: https://www.meownge.com]]></description>
+      <styleUrl>#icon-ci-39-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value><![CDATA[As you approach the Meownge, prepare to be hypnotized by an interactive 14 foot tall cat head structure. Your curiosity will surely kick in and you won’t be able to help yourself. Crafted out of conduit and 4 way stretch lycra the Meownge will provide you and your feline friends with enough shade and space to nap the day away. With amplified purrs resonating from it's ears, you'll find yourself in a blissfull zone of total relaxation. Purrrrfect to help you prepare for the true party animal you are. Which of course, comes out at night. As the sun falls into the horizon and the stars begin to twinkle, the Meownge transforms into an interactive light piece that invites you to play! It's spot light eyes will track and lure you in, challenging you to take control. Lined with over 600 feet of LEDs you will decide what happens next. Your movements will direct how each LED will react. Imagine, an orchestra of lights coming to life with your very own feline prowess! The best part? All cats are welcome! Come to the Meownge to groom your soul and explore the kitty you always knew you were.]]></value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value>https://www.meownge.com</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/7i-HJHDygpvSCjs_odq18mc3VTCnBerlAbF_gS_HxO7Z2xJgW1fzUAneXAqGwf2iruaQZ8q0Gea5DHONnb6GVv70iRZ7QL2m4xOSrAStPm-4-TelFgfHEoANp4mOn0V5</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2115791,40.7957663,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Methuselah</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/tc2LRHXw__XpgadLZte71aRZoX5bBifr-fv_Wafbcga9b3DyvYDNyFgTuZc9s7YZ1ZVVU1jeAhrNnxGC3A0Dzna_hKykcDErXCMaOYvd6piZfkBBo8qDiDaAh1gmWKBd" height="200" width="auto" /><br><br>description: [Location TBD]<br>Methuselah is a 20′ metal sculpture of the world’s oldest tree. The tree’s bark is steel, patinated to blue, brown and white, and seams of glass reveal propane flames within the trunk, reflected in a mirror below. The tree’s roots form benches on which Burners can congregate.<br><br>Ancestry and evolution are central themes for our work, whose namesake’s rings and branches bore witness to the entire span of recorded human history. Great trees gave their limbs and leaves as axles, paper, bows, hulls and roofs, and held space and time for our ancestors’ radical rituals.<br><br>Black Rock City contains many altars of dance and ecstasy, and many more of learning and relaxation, but the city provides comparatively few spaces for contemplation and remembrance.<br><br>Circular spaces, lone trees and eternal flames are all strong ritualistic symbols and joining them in Methuselah helps to dislocate Participants from the frenzy of present day time and re-anchors them in the still time of mythology.<br>Events: <br>Link: http://graydavidson.com/methuselah<br>https://www.facebook.com/majorellearts<br>]]></description>
+      <styleUrl>#icon-ci-40-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>[Location TBD]
+Methuselah is a 20′ metal sculpture of the world’s oldest tree. The tree’s bark is steel, patinated to blue, brown and white, and seams of glass reveal propane flames within the trunk, reflected in a mirror below. The tree’s roots form benches on which Burners can congregate.
+
+Ancestry and evolution are central themes for our work, whose namesake’s rings and branches bore witness to the entire span of recorded human history. Great trees gave their limbs and leaves as axles, paper, bows, hulls and roofs, and held space and time for our ancestors’ radical rituals.
+
+Black Rock City contains many altars of dance and ecstasy, and many more of learning and relaxation, but the city provides comparatively few spaces for contemplation and remembrance.
+
+Circular spaces, lone trees and eternal flames are all strong ritualistic symbols and joining them in Methuselah helps to dislocate Participants from the frenzy of present day time and re-anchors them in the still time of mythology.</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value>http://graydavidson.com/methuselah
+https://www.facebook.com/majorellearts
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/tc2LRHXw__XpgadLZte71aRZoX5bBifr-fv_Wafbcga9b3DyvYDNyFgTuZc9s7YZ1ZVVU1jeAhrNnxGC3A0Dzna_hKykcDErXCMaOYvd6piZfkBBo8qDiDaAh1gmWKBd</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2086125,40.7834985,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MÚCARO</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/PsMN7KO9PYhixJy92QlCb6ugpoNLs3s7af7l8DX_zsb_Z800RpoTy4Emn5DsDn6gbM6yIGnzQK5gjuDOW_FWVb3y2GWIUP_qXfJFa6kBwtXjj7BROy2CjTUH54_xVYs" height="200" width="auto" /><br><br>description: MÚCARO is a 32' wise and woody owl with a head that rotates 360!<br><br>Participants enter and exit through an opening under one of the wings. Inside the body is a cozy space with high ceilings and a spiral staircase that journeys through childhood memories. The walls are set-designed to take you back in time and travel through school years as you climb. At the height of the stairs are two built-in ladders for easy access to and from the top. It is here where you find the focal point — a sweeping view of the playa through MÚCARO’s giant eyes that move with the head as it rotates!<br><br>MÚCARO soars to Black Rock City as a testament to the wisdom of all our teachers, the people who (hoo!) inspired us. El NiNO is dedicating MÚCARO to one teacher in particular in Puerto Rico: his mom, Mrs. Hilda Alicea, who taught in Puerto Rico for more than 45 years inspiring young people to go for their dreams.<br>Events: <br>Link: https://www.facebook.com/mucaroartinstallation]]></description>
+      <styleUrl>#icon-ci-41-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value><![CDATA[MÚCARO is a 32' wise and woody owl with a head that rotates 360!
+
+Participants enter and exit through an opening under one of the wings. Inside the body is a cozy space with high ceilings and a spiral staircase that journeys through childhood memories. The walls are set-designed to take you back in time and travel through school years as you climb. At the height of the stairs are two built-in ladders for easy access to and from the top. It is here where you find the focal point — a sweeping view of the playa through MÚCARO’s giant eyes that move with the head as it rotates!
+
+MÚCARO soars to Black Rock City as a testament to the wisdom of all our teachers, the people who (hoo!) inspired us. El NiNO is dedicating MÚCARO to one teacher in particular in Puerto Rico: his mom, Mrs. Hilda Alicea, who taught in Puerto Rico for more than 45 years inspiring young people to go for their dreams.]]></value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value>https://www.facebook.com/mucaroartinstallation</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/PsMN7KO9PYhixJy92QlCb6ugpoNLs3s7af7l8DX_zsb_Z800RpoTy4Emn5DsDn6gbM6yIGnzQK5gjuDOW_FWVb3y2GWIUP_qXfJFa6kBwtXjj7BROy2CjTUH54_xVYs</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2062888,40.7917222,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Noetica</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/yTj1JAYUHfWa7XrSn-GmvzOx7Nyn1bE9DWmMDJbXhe3XTF4tYtvlL5yisv_A4HfT4FYrjglj4yFRW9o5nTG-Xbva6JFEzYlWs871KSGnKEQ1H8k0OYYaLAJV9i9zcWTQ" height="200" width="auto" /><br><br>description: [Location TBD]<br>NOETICA is a kinetic fire sculpture by Flaming Lotus Girls, a volunteer arts collective based in San Francisco. <br>Events: <br>Link: https://www.facebook.com/Flaminglotusgirls/]]></description>
+      <styleUrl>#icon-ci-42-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>[Location TBD]
+NOETICA is a kinetic fire sculpture by Flaming Lotus Girls, a volunteer arts collective based in San Francisco. </value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value>https://www.facebook.com/Flaminglotusgirls/</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/yTj1JAYUHfWa7XrSn-GmvzOx7Nyn1bE9DWmMDJbXhe3XTF4tYtvlL5yisv_A4HfT4FYrjglj4yFRW9o5nTG-Xbva6JFEzYlWs871KSGnKEQ1H8k0OYYaLAJV9i9zcWTQ</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2005079,40.7881708,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Phoenicopterus Rex</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/zGdXGhfS1Z_q9UKkcMDkBTUMI29OXy0ezn6zfERNjSeI4dOCX9CfsgZr8jr07v3WAeo9ANQuK5QDhOm_-mQDY5sDHPzyUTjULTg98Ot-zCv1W87EMdmbJzSeQT0p4clZ" height="200" width="auto" /><br><br>description: [Location TBD]<br>The world's largest lawn flamingo, a 40-foot climbable sculpture,<br>Events: <br>Link: http://phoenicopterusrex.com/]]></description>
+      <styleUrl>#icon-ci-43-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value><![CDATA[[Location TBD]
+The world's largest lawn flamingo, a 40-foot climbable sculpture,]]></value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value>http://phoenicopterusrex.com/</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/zGdXGhfS1Z_q9UKkcMDkBTUMI29OXy0ezn6zfERNjSeI4dOCX9CfsgZr8jr07v3WAeo9ANQuK5QDhOm_-mQDY5sDHPzyUTjULTg98Ot-zCv1W87EMdmbJzSeQT0p4clZ</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2008112,40.7858408,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pleiadian Oasis</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/7vNcB5I6Bi6rR0keK9oHX-2kOaxGWTz51gQWLWnlqr04XxAZ-vF-VPXiHca9UL0XQe1nYv3ux9ZVv9ezsjsc7rpDvi4079KElK9Q1qzYvVPsHLf1Fbh0Bbk2mCtJxC82" height="200" width="auto" /><br><br>description: The Pleiadian Oasis is a safe space for people in all phases of consciousness out in the deep playa. A constellation of sacred geometric structures is mapped out to mirror the stars of the Pleiades. This hazy cluster by the trash fence serves as a beacon calling all light workers, cosmic healers, mystical visionaries, desert philosophers and deep playa interdimensional travellers.<br>Events: night<br>Link: ]]></description>
+      <styleUrl>#icon-ci-44-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>The Pleiadian Oasis is a safe space for people in all phases of consciousness out in the deep playa. A constellation of sacred geometric structures is mapped out to mirror the stars of the Pleiades. This hazy cluster by the trash fence serves as a beacon calling all light workers, cosmic healers, mystical visionaries, desert philosophers and deep playa interdimensional travellers.</value>
+        </Data>
+        <Data name="Events">
+          <value>night</value>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/7vNcB5I6Bi6rR0keK9oHX-2kOaxGWTz51gQWLWnlqr04XxAZ-vF-VPXiHca9UL0XQe1nYv3ux9ZVv9ezsjsc7rpDvi4079KElK9Q1qzYvVPsHLf1Fbh0Bbk2mCtJxC82</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.1879295,40.7948796,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pulsefield</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/gG80XQ6oXkjBRUv-ngdd2HCfuVk-gBBBJggklK0pZEHq7AwoClUOOwJXbX0Y_d_bItQZcpTYpGMQx-8hagvHMtlW2LfN9mj-dF1X3J9Pyen_Z6uO7ii_pRTsAiUBCD-t" height="200" width="auto" /><br><br>description: Interactive playground that tracks participants movements<br>Events: All night, every night in the 3:00 Plaza<br>Link: ]]></description>
+      <styleUrl>#icon-ci-45-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Interactive playground that tracks participants movements</value>
+        </Data>
+        <Data name="Events">
+          <value>All night, every night in the 3:00 Plaza</value>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/gG80XQ6oXkjBRUv-ngdd2HCfuVk-gBBBJggklK0pZEHq7AwoClUOOwJXbX0Y_d_bItQZcpTYpGMQx-8hagvHMtlW2LfN9mj-dF1X3J9Pyen_Z6uO7ii_pRTsAiUBCD-t</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.1985702,40.7805739,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pyramid of the Dead</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/OXEs0WUgfTSMoSIivm_LMPzzxAZbu33d48McZafl1f4hKjevGCFnBmmMOaVKtlTJt6mo1jD6ht6kCEf2tOTu0TvRkq5OuF-Y69OkQqDSuwUR4zfnjho0E7AO6baVUFNRfA" height="200" width="auto" /><br><br>description: [Location approximate]<br>The Pyramid of the Dead is a structure comprised of individual “nichos”, artisanal hand made tin altars. The artworks displayed in the nichos are designed by different people from the Burner community, and offer respectful and personal tributes to deceased loved ones. The nichos are exhibited together, in the form of a pyramid and community altar. This is a deeply profound piece inspired by the day of the dead and the Mesoamerican architecture put in a completely new contemporary context while maintaining its deep meaning.<br><br>Events: On the evening of Thursday August 31st, we will adorn ourselves in the traditional ‘Catrina’ facepaint of Dia de Muertos, and at 9pm we will gather at THE TEMPLE (12:00) for a procession to THE PYRAMID OF THE DEAD at Xantolo (1:30/Outer Playa).<br><br>At the Pyramid of the Dead, a ceremony to honor and express respect for the dead, and three brief reflections on Life & Death -- DEADtalks -- will be followed by a ecstatic spiritual dance party curated by renowned Mexican Art Cars Mayan Warrior and !Axolotl! The Earth Guardian -- until 1am.<br><br>Together we will DANCE with our beloved DEAD -- and CELEBRATE their presence as inspiration for our LIVES. Honor the Dead - Celebrate Life.<br><br>And please continue to support our Pyramid! <br>Link: https://www.facebook.com/pyramidofthedead]]></description>
+      <styleUrl>#icon-ci-46-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>[Location approximate]
+The Pyramid of the Dead is a structure comprised of individual “nichos”, artisanal hand made tin altars. The artworks displayed in the nichos are designed by different people from the Burner community, and offer respectful and personal tributes to deceased loved ones. The nichos are exhibited together, in the form of a pyramid and community altar. This is a deeply profound piece inspired by the day of the dead and the Mesoamerican architecture put in a completely new contemporary context while maintaining its deep meaning.
+</value>
+        </Data>
+        <Data name="Events">
+          <value><![CDATA[On the evening of Thursday August 31st, we will adorn ourselves in the traditional ‘Catrina’ facepaint of Dia de Muertos, and at 9pm we will gather at THE TEMPLE (12:00) for a procession to THE PYRAMID OF THE DEAD at Xantolo (1:30/Outer Playa).
+
+At the Pyramid of the Dead, a ceremony to honor and express respect for the dead, and three brief reflections on Life & Death -- DEADtalks -- will be followed by a ecstatic spiritual dance party curated by renowned Mexican Art Cars Mayan Warrior and !Axolotl! The Earth Guardian -- until 1am.
+
+Together we will DANCE with our beloved DEAD -- and CELEBRATE their presence as inspiration for our LIVES. Honor the Dead - Celebrate Life.
+
+And please continue to support our Pyramid! ]]></value>
+        </Data>
+        <Data name="Link">
+          <value>https://www.facebook.com/pyramidofthedead</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/OXEs0WUgfTSMoSIivm_LMPzzxAZbu33d48McZafl1f4hKjevGCFnBmmMOaVKtlTJt6mo1jD6ht6kCEf2tOTu0TvRkq5OuF-Y69OkQqDSuwUR4zfnjho0E7AO6baVUFNRfA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.186549,40.7884027,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shibari Sanctuary</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/M9AxJAzlvN3J1pKFOmgEW0Ol9OqB-m-kFN4IaURkkUIHa4X0mTx9DhdJpXQy1gAnBMxH3gHMtKMIprII7Kquafb3IK4EFaEmV4SuLOxAIoy1ozWWwx-JinWy_tjWCNZd" height="200" width="auto" /><br><br>description: Location TBD <br>Shibari Sanctuary is a 20 foot tall mountain made up of 11 miles of rope hand tied in a geometric web pattern using Kinbaku, or Japanese rope bondage. As you enter the mountain, you'll find a womb-like interior where you can get tied, or relax and enjoy performances by some of the best riggers in the world. The project is an exploration of natural highs celebrating that magical tingly feeling that spreads from the back of your neck down the spine to every corner of your body. This project is lead by Benjamin Langholz and his teacher Kinoko Hajime from Japan. Our crew is made up of members from Tokyo, including a 4 person traditional Japanese band as well as a collection of some of the best riggers from around the world.<br>Events: Monday, Tuesday, Thursday, performance 6:00pm Friday 8:00pm burn<br>Link: ]]></description>
+      <styleUrl>#icon-ci-47-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value><![CDATA[Location TBD
+Shibari Sanctuary is a 20 foot tall mountain made up of 11 miles of rope hand tied in a geometric web pattern using Kinbaku, or Japanese rope bondage. As you enter the mountain, you'll find a womb-like interior where you can get tied, or relax and enjoy performances by some of the best riggers in the world. The project is an exploration of natural highs celebrating that magical tingly feeling that spreads from the back of your neck down the spine to every corner of your body. This project is lead by Benjamin Langholz and his teacher Kinoko Hajime from Japan. Our crew is made up of members from Tokyo, including a 4 person traditional Japanese band as well as a collection of some of the best riggers from around the world.]]></value>
+        </Data>
+        <Data name="Events">
+          <value>Monday, Tuesday, Thursday, performance 6:00pm Friday 8:00pm burn</value>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/M9AxJAzlvN3J1pKFOmgEW0Ol9OqB-m-kFN4IaURkkUIHa4X0mTx9DhdJpXQy1gAnBMxH3gHMtKMIprII7Kquafb3IK4EFaEmV4SuLOxAIoy1ozWWwx-JinWy_tjWCNZd</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.198326,40.799108,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shogyo Mujo</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/PqGat2EUjcrfHqXnY38eGHDy_krvcVE1uNfORFJ06MyEkj1jTfFFWJCRH9eWT27lD5nnjvKzP_HXBd9TQ8EXUaY7acKVudIlYih5J6iC_eyIf1NtoTd74raMGddtCPE" height="200" width="auto" /><br><br>description: [Location TBD]<br>Shogyo Mujo is a unique installation that utilizes projections, lighting, and music to bring a sculpture to life. BARTKRESA studio and sculptor Josh Harker collaborated on the twelve-foot tall faceted skull, exploring the intersection of the physical and the imagination. Shogyo Mujo represents the first of the three marks of Dharma, which states that all things are impermanent. The project has evolved into a 360° musically driven, interactive visual centerpiece that has been featured at festivals and creative events.<br>Events: <br>Link: http://shogyomujo.org]]></description>
+      <styleUrl>#icon-ci-48-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>[Location TBD]
+Shogyo Mujo is a unique installation that utilizes projections, lighting, and music to bring a sculpture to life. BARTKRESA studio and sculptor Josh Harker collaborated on the twelve-foot tall faceted skull, exploring the intersection of the physical and the imagination. Shogyo Mujo represents the first of the three marks of Dharma, which states that all things are impermanent. The project has evolved into a 360° musically driven, interactive visual centerpiece that has been featured at festivals and creative events.</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value>http://shogyomujo.org</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/PqGat2EUjcrfHqXnY38eGHDy_krvcVE1uNfORFJ06MyEkj1jTfFFWJCRH9eWT27lD5nnjvKzP_HXBd9TQ8EXUaY7acKVudIlYih5J6iC_eyIf1NtoTd74raMGddtCPE</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.1963249,40.7967847,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Solaris</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/9SWuP6FytX2jwknjDa71Nl0DZHd6THrkrW56VNA1viLQlji2Lwde7JEO9QhNGdeXQDBjxSlOQg8MwMIQ7nGyCR85xWvUC9qUD7YBoYWfgy_AK-yVbvnwdv1pfakAyoPD-g" height="200" width="auto" /><br><br>description: Solaris stands as a large, colorfully painted canvas bold in contrast to the mystical sand colors of the deep playa. As the abstract canvas breathes among the wind in solidarity, from afar one catches a glimpse from its colorful accents during the day and when lit and alive night. Its true golden hour exists during the celebration of the sun as it faces and frames the magical moment of sunrise.<br>Events: <br>Link: ]]></description>
+      <styleUrl>#icon-ci-49-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Solaris stands as a large, colorfully painted canvas bold in contrast to the mystical sand colors of the deep playa. As the abstract canvas breathes among the wind in solidarity, from afar one catches a glimpse from its colorful accents during the day and when lit and alive night. Its true golden hour exists during the celebration of the sun as it faces and frames the magical moment of sunrise.</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/9SWuP6FytX2jwknjDa71Nl0DZHd6THrkrW56VNA1viLQlji2Lwde7JEO9QhNGdeXQDBjxSlOQg8MwMIQ7nGyCR85xWvUC9qUD7YBoYWfgy_AK-yVbvnwdv1pfakAyoPD-g</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.1861528,40.7984541,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Solipmission</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/IeNK_LmZ9DXoDBT3kKxmtYbLMUsvni1fS46xkTgobzNPJ5WX6n41I4VNzd9kIaY54fC23E7WF19mrh-uc7urfeDgUFz5xKfdhMSR75_yR5PQskDRLhihtz_yiUNKv30" height="200" width="auto" /><br><br>description: A small crew of artists will be locked up inside a black box for the entire week of the event. They will create a virtual Burning Man on the inside walls without ever viewing the outside, just based on what visitors tell them.<br>Events: <br>Link: https://www.solipmission.com/<br><br><a href="https://www.youtube.com/watch?v=jKnsXD_tpDo"><img src="http://img.youtube.com/vi/jKnsXD_tpDo/hqdefault.jpg" height="200" width="auto" /></a><br><br><a href="https://www.youtube.com/embed/jKnsXD_tpDo">https://www.youtube.com/embed/jKnsXD_tpDo</a>]]></description>
+      <styleUrl>#icon-ci-50-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>A small crew of artists will be locked up inside a black box for the entire week of the event. They will create a virtual Burning Man on the inside walls without ever viewing the outside, just based on what visitors tell them.</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value>https://www.solipmission.com/</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/IeNK_LmZ9DXoDBT3kKxmtYbLMUsvni1fS46xkTgobzNPJ5WX6n41I4VNzd9kIaY54fC23E7WF19mrh-uc7urfeDgUFz5xKfdhMSR75_yR5PQskDRLhihtz_yiUNKv30 https://www.youtube.com/embed/jKnsXD_tpDo</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.1954159,40.78873,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Temple of Awareness</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/VhVceyvatvzudrOe6qMWJ0NR6FayoDZ6rKAlR5XJiHaAfR9zQs6EnWJkwTxYnmmK0MHvmTBOrh9xX-1dJEciCLmrt-ocy25j0TU1DQTH0Qs-R5ckDyU_oYzpt8AUSmy8" height="200" width="auto" /><br><br>description: [Location TBD]<br>(built by the Utah Builders Community)<br>Temples offer environments for us to immerse ourselves into an unworldly place of harmony and peace. The Temple of Awareness is an organic form, similar to a pine cone. Seen from above, it evokes aspects of a bloomed lotus. The Temple is a 13-sided dome structure that is 35 ft. in diameter at the base. It has seven levels that reach 35 ft. high, each level with projecting decorative wings encircling it.<br>Events: <br>Link: <br><br><a href="https://www.youtube.com/watch?v=-Ys926FnWik"><img src="http://img.youtube.com/vi/-Ys926FnWik/hqdefault.jpg" height="200" width="auto" /></a><br><br><a href="https://www.youtube.com/embed/-Ys926FnWik">https://www.youtube.com/embed/-Ys926FnWik</a>]]></description>
+      <styleUrl>#icon-ci-51-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>[Location TBD]
+(built by the Utah Builders Community)
+Temples offer environments for us to immerse ourselves into an unworldly place of harmony and peace. The Temple of Awareness is an organic form, similar to a pine cone. Seen from above, it evokes aspects of a bloomed lotus. The Temple is a 13-sided dome structure that is 35 ft. in diameter at the base. It has seven levels that reach 35 ft. high, each level with projecting decorative wings encircling it.</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/VhVceyvatvzudrOe6qMWJ0NR6FayoDZ6rKAlR5XJiHaAfR9zQs6EnWJkwTxYnmmK0MHvmTBOrh9xX-1dJEciCLmrt-ocy25j0TU1DQTH0Qs-R5ckDyU_oYzpt8AUSmy8 https://www.youtube.com/embed/-Ys926FnWik</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.1987827,40.795804,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Temple of Gravity</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/cAWn5bqyEIvb5KWNookOK33juQpt6FcxkNqURd-jorgB7MhQHAnPH8msiJhhMEGa-7eGgaPNo5GlCu0_MoZsieRSHBx78KF5sjtAKBo-ZRjxb-neXqFeico3yT34mFSt" height="200" width="auto" /><br><br>description: Gravity is a central component of all of Zachary Coffin’s massive, larger-than-life interactive kinetic sculptures and the only force that he believes he can truly have faith in. <br>The Temple of Gravity is a 60-foot diameter steel dome with 5 arms, each arm supports a suspended granite stone slab (which weighs ~15,000 pounds) and is anchored by a granite base slab.<br>Events: <br>Link: <br><br><img src="https://lh6.googleusercontent.com/M4pT3-kD5eKi65HGTsOZBzXkkKMRVfV0oyNua1etxfm1CPUL3i-z7-wsuNq2KFsTtFD3D6KadpqEX-NoLFJsoYEdqHguLwF3k3RCKLdMHeCUJAkEMvYWumaE9rnupJuYpw" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-ci-52-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Gravity is a central component of all of Zachary Coffin’s massive, larger-than-life interactive kinetic sculptures and the only force that he believes he can truly have faith in.
+The Temple of Gravity is a 60-foot diameter steel dome with 5 arms, each arm supports a suspended granite stone slab (which weighs ~15,000 pounds) and is anchored by a granite base slab.</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/cAWn5bqyEIvb5KWNookOK33juQpt6FcxkNqURd-jorgB7MhQHAnPH8msiJhhMEGa-7eGgaPNo5GlCu0_MoZsieRSHBx78KF5sjtAKBo-ZRjxb-neXqFeico3yT34mFSt https://lh6.googleusercontent.com/M4pT3-kD5eKi65HGTsOZBzXkkKMRVfV0oyNua1etxfm1CPUL3i-z7-wsuNq2KFsTtFD3D6KadpqEX-NoLFJsoYEdqHguLwF3k3RCKLdMHeCUJAkEMvYWumaE9rnupJuYpw</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.1858029,40.7927101,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Journey</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/ENRjIkW2d3nI9PCtR7ffz7u8dsUARW554y2hMqkwW1xDlLw-xFT64G6avOUQKsyZCv9VVpzMKSNSyUPBF_aIvctJixPfa8KrlJjeGyDfS7wd8Azw6XOoRrb2FkCOUrzoFA" height="200" width="auto" /><br><br>description: The Journey is an interactive, wood sculpture inspired by the double-helix and is reflective on our journey through life. Utilizing music, lighting, and responsive technology, The Journey inspires to reflect and create experiences for self and community within its walkable structure.<br>Events: <br>Link: http://thejourneyproject.org<br><br><img src="https://lh6.googleusercontent.com/gR9d3kqoh4HNLgqRBigYxq2YeiFsO4RgipItpEg-YgLvsiTFF4amIKDCmSmoiwGfKSLZ1nox2135h13VH0U0BCqyCOz0BX4wLG8QOaO6VgJc3C-EaizZsMggMQNQTes" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-ci-53-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>The Journey is an interactive, wood sculpture inspired by the double-helix and is reflective on our journey through life. Utilizing music, lighting, and responsive technology, The Journey inspires to reflect and create experiences for self and community within its walkable structure.</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value>http://thejourneyproject.org</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/ENRjIkW2d3nI9PCtR7ffz7u8dsUARW554y2hMqkwW1xDlLw-xFT64G6avOUQKsyZCv9VVpzMKSNSyUPBF_aIvctJixPfa8KrlJjeGyDfS7wd8Azw6XOoRrb2FkCOUrzoFA https://lh6.googleusercontent.com/gR9d3kqoh4HNLgqRBigYxq2YeiFsO4RgipItpEg-YgLvsiTFF4amIKDCmSmoiwGfKSLZ1nox2135h13VH0U0BCqyCOz0BX4wLG8QOaO6VgJc3C-EaizZsMggMQNQTes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2072647,40.789959,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Launch Facility</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/7Rz71zclLmIuDnm9bVGaIGbbmHvX29dH9tXhgxuDKiQdTG5V-5QkrOVjzJZcUlfh7QemoA5a-tO3jNrZd65v1FljkLb7boARplpZ7sdVKQzCp3iTwppstT2t-jnH0F0" height="200" width="auto" /><br><br>description: This space station is designed to send volunteer adventurers into deepest space. Stop by Post Nuclear Family at 4:45 and H to pick up your blank Captain's Log and receive orientation to operate your starship.<br>Events: Friday Night Launch Event 9PM<br>Link: ]]></description>
+      <styleUrl>#icon-ci-54-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value><![CDATA[This space station is designed to send volunteer adventurers into deepest space. Stop by Post Nuclear Family at 4:45 and H to pick up your blank Captain's Log and receive orientation to operate your starship.]]></value>
+        </Data>
+        <Data name="Events">
+          <value>Friday Night Launch Event 9PM</value>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/7Rz71zclLmIuDnm9bVGaIGbbmHvX29dH9tXhgxuDKiQdTG5V-5QkrOVjzJZcUlfh7QemoA5a-tO3jNrZd65v1FljkLb7boARplpZ7sdVKQzCp3iTwppstT2t-jnH0F0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.1871011,40.7968445,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Pier</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/ZqqqxzaNBJX2mQV1EgJr5PCsTT7vewFxVsc2TSMG6u9FmywrTakyIrnQ2N4_mPHeAzda4R3vAoCN5kh8c5-x6TZPMe1l5tN9Fcwn0jWUc62qNKoOWy3vKBPZkf18skvX" height="200" width="auto" /><br><br>description: THE PIER captures a sense of imagination and wonder. A forgotten nostalgia in those who walk down it, fish off the end of it and hop on a boat for a leisurely journey around the remnants of Lake Lahontan. It is ragged and rough, well loved and cared for. Like a distant childhood dream slipping back out of the void to gift a smile and then fade away. <br>Events: <br>Link: ]]></description>
+      <styleUrl>#icon-ci-55-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>THE PIER captures a sense of imagination and wonder. A forgotten nostalgia in those who walk down it, fish off the end of it and hop on a boat for a leisurely journey around the remnants of Lake Lahontan. It is ragged and rough, well loved and cared for. Like a distant childhood dream slipping back out of the void to gift a smile and then fade away. </value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/ZqqqxzaNBJX2mQV1EgJr5PCsTT7vewFxVsc2TSMG6u9FmywrTakyIrnQ2N4_mPHeAzda4R3vAoCN5kh8c5-x6TZPMe1l5tN9Fcwn0jWUc62qNKoOWy3vKBPZkf18skvX</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.214288,40.7866505,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Solacii</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/vMGQ3jYzfoXPKz3U856ax288a9V7yOy9LCbCS3poeAKZHO9lrvqU9NZkkCvbj2PP9vtwYAEJgPZZJZq2GZoR2eUvshQ6KWzFkvpbhusuDS7o0MTNi3QnNbZZqb-3CYwgKw" height="200" width="auto" /><br><br>description: [Location TBD]<br>The Solacii is a new interactive art piece heading to Burning Man 2017 that combines elements of reverent sculpture, sacred space, and responsive design.<br>Events: <br>Link: http://thesolacii.com/<br>https://www.facebook.com/thesolacii/<br>]]></description>
+      <styleUrl>#icon-ci-56-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>[Location TBD]
+The Solacii is a new interactive art piece heading to Burning Man 2017 that combines elements of reverent sculpture, sacred space, and responsive design.</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value>http://thesolacii.com/
+https://www.facebook.com/thesolacii/
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/vMGQ3jYzfoXPKz3U856ax288a9V7yOy9LCbCS3poeAKZHO9lrvqU9NZkkCvbj2PP9vtwYAEJgPZZJZq2GZoR2eUvshQ6KWzFkvpbhusuDS7o0MTNi3QnNbZZqb-3CYwgKw</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2044891,40.7829304,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Time Travelers Elevator</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/DNlj6-DGtdBj2igmctzTS3iyBfLijiLh6jfz4mOEkvUk7oj_RqbDxA39WRjOtAzK930bQWAZY1MlbkVThQ6cy5D7aTY1d4i7q5oq6m79ZZr_h72dzaMBBxCH0J-EhieY" height="200" width="auto" /><br><br>description: [Location TBD]<br>The Time Machine Elevator is a working time machine that sends people to the past in order to correct their future. <br><br>Events: <br>Link: http://www.starvingheartistfilms.com/time-machine-elevator]]></description>
+      <styleUrl>#icon-ci-57-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>[Location TBD]
+The Time Machine Elevator is a working time machine that sends people to the past in order to correct their future.
+</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value>http://www.starvingheartistfilms.com/time-machine-elevator</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/DNlj6-DGtdBj2igmctzTS3iyBfLijiLh6jfz4mOEkvUk7oj_RqbDxA39WRjOtAzK930bQWAZY1MlbkVThQ6cy5D7aTY1d4i7q5oq6m79ZZr_h72dzaMBBxCH0J-EhieY</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.1933776,40.8024809,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Tower of Not Babel</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/E18PbmhMZbGw25SfeEOzhZ7vBbKgWnHzuCTv7lqo-lDVpFqfh6cTrbiXKR2yFHj2mOyiXZ3iHCHR-gKBGCbhUmjhTT41FysF5k3PM5co7AogxVv4SOKxdDXLiAklj74" height="200" width="auto" /><br><br>description: A climbable Tower that has traveled to numerous Regional Burns in the Northeast, each event being limited to one side. A traveling Time Capsule of Burner expression from Playa del Fuego - DE (twice), Wickerman - PA, POrtalBurn -<br> NY (twice), NECTR - CT, Scorched Nuts - OH, Firefly - VT, and the Rochester NY Mini Maker Faire.<br>Events: It burns Friday night at 9:00!<br>Link: http://www.towerofnotbabel.org/<br><br><img src="https://lh3.googleusercontent.com/w7r0a6LrVKoAhdSPMDiAQesePHj9ccymumZLHRz2EaHSKGP2rLvNUyXv2mANxt4FyUaNan6XNlhIglZ1x8YKhQ0VJYd6JqwvXoXaeEGfrlL-icxoXIrLXkK_6Ne01ePG" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-ci-58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>A climbable Tower that has traveled to numerous Regional Burns in the Northeast, each event being limited to one side. A traveling Time Capsule of Burner expression from Playa del Fuego - DE (twice), Wickerman - PA, POrtalBurn -
+ NY (twice), NECTR - CT, Scorched Nuts - OH, Firefly - VT, and the Rochester NY Mini Maker Faire.</value>
+        </Data>
+        <Data name="Events">
+          <value>It burns Friday night at 9:00!</value>
+        </Data>
+        <Data name="Link">
+          <value>http://www.towerofnotbabel.org/</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/E18PbmhMZbGw25SfeEOzhZ7vBbKgWnHzuCTv7lqo-lDVpFqfh6cTrbiXKR2yFHj2mOyiXZ3iHCHR-gKBGCbhUmjhTT41FysF5k3PM5co7AogxVv4SOKxdDXLiAklj74 https://lh3.googleusercontent.com/w7r0a6LrVKoAhdSPMDiAQesePHj9ccymumZLHRz2EaHSKGP2rLvNUyXv2mANxt4FyUaNan6XNlhIglZ1x8YKhQ0VJYd6JqwvXoXaeEGfrlL-icxoXIrLXkK_6Ne01ePG</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2091795,40.7903855,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tonglen</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/P2TyaQTx60KtCHQapOL9shOPFNNTwAYdcOJdkUfmGuVEog0wBFx3q36bvjJF7xqm6p2FcRMrpng7kMvbjsIGpYkB6TChmmoOvXQx-LLRbojhiJY5oHxUr3eOTkbM7VekYg" height="200" width="auto" /><br><br>description: [Location TBD]<br>The Buddhist practice of receiving and accepting bad energy and sending out and letting go of one's good energy is embodied in this prayer engine made of steel and fire. Kinetic human input - this breathing in and out, air and fire - is a visible, accessible amplification of Tonglen.<br><br>Events: <br>Link: http://www.prayer-engine.com]]></description>
+      <styleUrl>#icon-ci-59-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value><![CDATA[[Location TBD]
+The Buddhist practice of receiving and accepting bad energy and sending out and letting go of one's good energy is embodied in this prayer engine made of steel and fire. Kinetic human input - this breathing in and out, air and fire - is a visible, accessible amplification of Tonglen.
+]]></value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value>http://www.prayer-engine.com</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/P2TyaQTx60KtCHQapOL9shOPFNNTwAYdcOJdkUfmGuVEog0wBFx3q36bvjJF7xqm6p2FcRMrpng7kMvbjsIGpYkB6TChmmoOvXQx-LLRbojhiJY5oHxUr3eOTkbM7VekYg</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2027437,40.7972668,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tree of Ténéré</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/KKgzxHVtHrnnRGqHu650nfxNuVbIuaQuVdQcPEgZ4mrxCRnwb4GZcx0onyqWyWumqmOXhzF71Wzw3N1Zk3RSvzbPXNKWoi3tFOQCp4SC-y9Ze1qtPTkO2VFs9cHZpmkB" height="200" width="auto" /><br><br>description: [Location TBD]<br>A towering lifelike tree,Ténéré offers shade to wanderers, adventure to climbers, and infinite possibility to those gathered beneath its 25,000 LED leaves.<br>Events: <br>Link: https://www.treeoftenere.com<br><br><img src="https://lh3.googleusercontent.com/3hzXhAi0ekvut4o19pA0BwMzhzxifaQrHRghy2xPf-7z2SDtynySqSuZBPeTqTcPSZLoTXBogMZAnZbVZVmqiVzSK9wvZUtV7zqizR25rQVN-Wzn2ujJ4lNfX0ptFUNkvQ" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-ci-60-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>[Location TBD]
+A towering lifelike tree,Ténéré offers shade to wanderers, adventure to climbers, and infinite possibility to those gathered beneath its 25,000 LED leaves.</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value>https://www.treeoftenere.com</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/KKgzxHVtHrnnRGqHu650nfxNuVbIuaQuVdQcPEgZ4mrxCRnwb4GZcx0onyqWyWumqmOXhzF71Wzw3N1Zk3RSvzbPXNKWoi3tFOQCp4SC-y9Ze1qtPTkO2VFs9cHZpmkB https://lh3.googleusercontent.com/3hzXhAi0ekvut4o19pA0BwMzhzxifaQrHRghy2xPf-7z2SDtynySqSuZBPeTqTcPSZLoTXBogMZAnZbVZVmqiVzSK9wvZUtV7zqizR25rQVN-Wzn2ujJ4lNfX0ptFUNkvQ</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.1949661,40.7906574,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Thunderdome</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/2eI-CSpfRC6rqv0yJ46Vcu1wDV0ptAZmLxt4wEQmYkBAGyxfA3ztyrQ9BYRR75WkKSM_zXTOkU_g5Igv7nALk21pO-8-3DPQs9JAlPqeMK0OCCaj1fOtY42IDce0afMX" height="200" width="auto" /><br><br>description: Two men enter, one man leaves<br>Events: <br>Link: <br><br><img src="https://lh5.googleusercontent.com/pKPkiZZVWDG3FcRrW_esRp6-2V28dw5VwKkBBxlS0sh1o9zFFBygcBEzgKxqIF_JrLg4PBoZ-djI52I22c1nQtjPdu7Qk1HUMcKTJjcKKv8l0CdSS-so4kzjG30aEoo" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-ci-61-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Two men enter, one man leaves</value>
+        </Data>
+        <Data name="Events">
+          <value/>
+        </Data>
+        <Data name="Link">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/2eI-CSpfRC6rqv0yJ46Vcu1wDV0ptAZmLxt4wEQmYkBAGyxfA3ztyrQ9BYRR75WkKSM_zXTOkU_g5Igv7nALk21pO-8-3DPQs9JAlPqeMK0OCCaj1fOtY42IDce0afMX https://lh5.googleusercontent.com/pKPkiZZVWDG3FcRrW_esRp6-2V28dw5VwKkBBxlS0sh1o9zFFBygcBEzgKxqIF_JrLg4PBoZ-djI52I22c1nQtjPdu7Qk1HUMcKTJjcKKv8l0CdSS-so4kzjG30aEoo</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.2067349,40.7803627,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

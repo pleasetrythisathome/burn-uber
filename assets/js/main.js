@@ -114,7 +114,9 @@ function BRCMap() {
   }
 }
 
-var camps;
+var camps,
+    art,
+    facilities;
 
 function parseAddress(address) {
   var parsed = address.match("(.*):(.*) and (.*)");
@@ -155,19 +157,53 @@ function campLocation(name) {
   return destVincenty(theMan.lat(), theMan.lng(), timeToBearing(location.time), distanceFromMan(location.street));
 }
 
+var destination;
+
+function setDestination(name, location) {
+  destination = {
+    name: name,
+    location: location
+  };
+  console.log(destination);
+}
+
 function initDestinationInput(onDestination) {
-  $.getJSON("/assets/data/camps2017.min.json", function(data) {
-    camps = _.object(_.map(data, _.accessor("camp")),
-                     data);
+  $.when(
+    $.getJSON("/assets/data/camps2017.min.json", function(data) {
+      camps = _.object(_.map(data, _.accessor("camp")),
+                       data);
+    }),
+    $.getJSON("/assets/data/art-installations.json", function(data) {
+      art = data;
+    }),
+    $.getJSON("/assets/data/brc-facilities.json", function(data) {
+      facilities = data;
+    }),
+  ).then(function() {
     $("#destination-input").autocomplete({
-      data: _.mapObject(camps, _.constant(null)),
+      data: _.mapObject(_.extend({},
+                                 camps,
+                                 art,
+                                 facilities),
+                        _.constant(null)),
       limit: 5, // The max amount of results that can be shown at once. Default: Infinity.
       onAutocomplete: function(val) {
-        onDestination(camps[val]);
+        if (camps[val]) {
+          var camp = camps[val];
+          setDestination(camp.camp, camp.address);
+          onDestination(campLocation(val));
+        } else {
+          var coords = _.extend({},
+                                art,
+                                facilities)[val];
+          var location = new google.maps.LatLng(coords[1], coords[0]);
+          setDestination(val, [location.lat(), location.lng()].join(","));
+          onDestination(new google.maps.LatLng(coords[1], coords[0]));
+        }
       },
       minLength: 1,
     });
-  })
+  });
 }
 
 function showDestinationInput() {
@@ -249,7 +285,8 @@ var map,
     centerMarker,
     geoMarker,
     startMarker,
-    destination;
+    destination,
+    destinationLocation;
 
 function initBurnerUber() {
   map = initGoogleMap("map-canvas", BRCMap());
@@ -264,11 +301,9 @@ function initBurnerUber() {
   });
   $("#request-form-trigger").click(request.bind(this, map));
   setTimeout(showLanding, 0);
-  initDestinationInput(function(_destination) {
-    destination = _destination;
+  initDestinationInput(function(location) {
     startMarker.setMap();
-    var location = campLocation(destination.camp);
-    console.log("destination", destination, location.lat(), location.lng());
+    console.log("destination", location.lat(), location.lng());
     showDirections(map, directionsService, directionsDisplay, startMarker.getPosition(),  location);
     hideDestinationInput();
   });
@@ -281,8 +316,8 @@ function request(map) {
   var hiddenFields = {
     lat: map.getCenter().lat(),
     lng: map.getCenter().lng(),
-    camp: destination.camp,
-    address: destination.address
+    destination: destination.name,
+    location: destination.location
   };
   console.log("request", hiddenFields);
   typeform("typeform-full", "HhhOAN", hiddenFields)
