@@ -1,3 +1,18 @@
+var map,
+    directionsService,
+    directionsDisplay,
+    centerMarker,
+    geoMarker,
+    startMarker,
+    destination,
+    destinationLocation;
+
+var camps,
+    art,
+    facilities;
+
+var theMan = new google.maps.LatLng(40.78660, -119.20660);
+
 function typeform(id, formId, hiddenFields) {
   hiddenFields = hiddenFields || {};
   return $("<iframe>", {
@@ -100,8 +115,6 @@ function distanceBetweenLocations(lat1, lon1, lat2, lon2) {
   return d;
 }
 
-var theMan = new google.maps.LatLng(40.78660, -119.20660);
-
 function distanceToBRC(lat, lng) {
   return distanceBetweenLocations(theMan.lat(), theMan.lng(), lat, lng);
 }
@@ -113,10 +126,6 @@ function BRCMap() {
 
   }
 }
-
-var camps,
-    art,
-    facilities;
 
 function parseAddress(address) {
   var parsed = address.match("(.*):(.*) and (.*)");
@@ -167,7 +176,7 @@ function setDestination(name, location) {
   console.log(destination);
 }
 
-function initDestinationInput(onDestination) {
+function initDestinationInput(map, onDestination) {
   $.when(
     $.getJSON("/assets/data/camps2017.min.json", function(data) {
       camps = _.object(_.map(data, _.accessor("camp")),
@@ -197,7 +206,13 @@ function initDestinationInput(onDestination) {
                                 art,
                                 facilities)[val];
           var location = new google.maps.LatLng(coords[1], coords[0]);
+
           setDestination(val, [location.lat(), location.lng()].join(","));
+          new google.maps.Marker({
+            position: location,
+            icon: "/assets/images/blue-dot.png",
+            map: map
+          });
           onDestination(new google.maps.LatLng(coords[1], coords[0]));
         }
       },
@@ -241,6 +256,12 @@ function showDirections(map, service, display, start, end) {
   service.route(request, function(response, status) {
     if (status === 'OK') {
       display.setDirections(response);
+      var bounds = new google.maps.LatLngBounds();
+      bounds.extend(start);
+      bounds.extend(end);
+      setTimeout(function() {
+        map.fitBounds(bounds)
+      }, 0);
     } else {
       console.log('Directions request failed due to ', status, response);
     }
@@ -279,14 +300,6 @@ function showLanding() {
 function closeLanding() {
   $("#landing").modal("close");
 }
-var map,
-    directionsService,
-    directionsDisplay,
-    centerMarker,
-    geoMarker,
-    startMarker,
-    destination,
-    destinationLocation;
 
 function initBurnerUber() {
   map = initGoogleMap("map-canvas", BRCMap());
@@ -301,7 +314,7 @@ function initBurnerUber() {
   });
   $("#request-form-trigger").click(request.bind(this, map));
   setTimeout(showLanding, 0);
-  initDestinationInput(function(location) {
+  initDestinationInput(map, function(location) {
     startMarker.setMap();
     console.log("destination", location.lat(), location.lng());
     showDirections(map, directionsService, directionsDisplay, startMarker.getPosition(),  location);
