@@ -1,6 +1,6 @@
 # Uberburn
 
-A purposeful development experiment in pure, dumb javascript for the radical participation of everyone at Burning Man.
+I'm a clojure(script) dev, but just for shits, here's a purposeful development experiment in pure, dumb javascript for the radical participation of everyone at Burning Man.
 
 Concepted by [Kae Burke](http://houseofyes.org/).
 Developed by [Dylan Butman](https://github.com/pleasetrythisathome).
