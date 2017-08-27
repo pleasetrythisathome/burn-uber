@@ -5,8 +5,14 @@
 layout: copy
 ---
 
+#### About
+
 Concepted by [Kae Burke](http://houseofyes.org/).
 Developed by [Dylan Butman](https://github.com/pleasetrythisathome/burn-uber).
 Created together... for Burners and friends.
 
 Made possible by the generous support of [House of Yes](http://houseofyes.org/).
+
+#### Disclaimer
+
+This website and all associated materials have no relation to Uber Technologies, Inc. or any of it's subsidiary, parent, or related companies or ventures. If you're an uber lawyer reading this, we hope you appreciate a good joke, and suggest you request a ride to BRC. 
