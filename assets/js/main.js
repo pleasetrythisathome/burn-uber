@@ -327,10 +327,10 @@ function request(map) {
   $("#request-form").modal();
   $("#request-form").modal("open");
   var hiddenFields = {
-    lat: map.getCenter().lat(),
-    lng: map.getCenter().lng(),
-    destination: destination.name,
-    location: destination.location
+    lat: startMarker && startMarker.getPosition().lat() || map.getCenter().lat(),
+    lng: startMarker && startMarker.getPosition().lng() || map.getCenter().lng(),
+    destination: destination && destination.name,
+    location: destination && destination.location
   };
   console.log("request", hiddenFields);
   typeform("typeform-full", "HhhOAN", hiddenFields)
